@@ -590,11 +590,6 @@ body{
   color: #1E212C;
   margin: 0;
 }
-.slider-nav {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-}
 
 .slider-nav {
   display: flex;
@@ -603,33 +598,29 @@ body{
 }
 
 .slider-nav__btn {
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   padding: 0;
   background-color: transparent;
   border: 0;
-  border-radius: 4px;
+  border-radius: 50%;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition:
-    width .25s ease,
-    height .25s ease,
-    background-color .25s ease,
-    opacity .2s ease;
+  transition: background-color .25s ease, opacity .2s ease;
 }
 
 .slider-nav__btn img {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 11px;
   display: block;
   transition: filter .25s ease;
+  /* В idle — стрелка серая */
+  filter: none;
 }
 
 .slider-nav__btn:hover {
-  width: 48px;
-  height: 48px;
   background-color: var(--orange);
 }
 .slider-nav__btn:hover img {
@@ -641,8 +632,6 @@ body{
   opacity: 0.3;
   pointer-events: none;
   cursor: default;
-  width: 24px;
-  height: 24px;
   background-color: transparent;
 }
 .slider-nav__btn:disabled img,
