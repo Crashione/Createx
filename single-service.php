@@ -1,23 +1,22 @@
 <?php require 'doctype.php'; ?>
 
-<main class="service-page">
   <section class="section service page-hero">
     <div class="container">
-        <div class="page-herocontent">
-            <div class="page-heropath">Homepage/ Services/ Interior Design</div>
-            <h1 class="page-herotitle">
+        <div class="page-hero__content">
+            <div class="page-hero__path">Homepage/ Services/ Interior Design</div>
+            <h1 class="page-hero__title">
             INTERIOR DESIGN
             </h1>
-            <div class="page-herodesc">
+            <div class="page-hero__desc">
                 Dui augue nec mi mi. Ut ac lectus donec fames 
                 pellentesque. Laoreet aenean vulputate elementum blandit amet.
             </div>
         </div>
     </div>
-    <div class="page-heromedia">
-            <img src="/img/services/service.png" alt="" class="page-heroimg">
+    <div class="page-hero__media">
+            <img src="/img/services/service.png" alt="" class="page-hero__img">
     </div>
-  </section>  <!-- ЗАТЫЧКА -->
+  </section>
   <section class="offer">
     <div class="container offer__inner">
 
@@ -290,6 +289,5 @@
     </div>
   </section>
 
-</main>
 
 <?php require 'footer.php'; ?>
