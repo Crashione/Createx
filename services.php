@@ -39,7 +39,7 @@
                     Mattis habitant venenatis, gravida posuere massa 
                     ac interdum. Eget aliquam dignissim ut vestibulum. 
                 </div>
-                <a href="service.php" class="service-card__btn btn__solid">
+                <a href="single-service.php" class="service-card__btn btn__solid">
                     Learn more
                 </a>
             </div>
@@ -59,7 +59,7 @@
                     Hendrerit vulputate elementum blandit massa vitae 
                     amet felis eget. 
                 </div>
-                <a href="service.php" class="service-card__btn btn__solid">
+                <a href="single-service.php" class="service-card__btn btn__solid">
                     Learn more
                 </a>
             </div>
@@ -82,7 +82,7 @@
                     duis. Arcu dictum metus sed purus senectus faucibus 
                     eget elementum pretium.  
                 </div>
-                <a href="service.php" class="service-card__btn btn__solid">
+                <a href="single-service.php" class="service-card__btn btn__solid">
                     Learn more
                 </a>
             </div>
@@ -101,7 +101,7 @@
                     orci. Nunc sit sollicitudin id egestas mattis. 
                     Turpis viverra nec urna ultrices urna 
                 </div>
-                <a href="service.php" class="service-card__btn btn__solid">
+                <a href="single-service.php" class="service-card__btn btn__solid">
                     Learn more
                 </a>
             </div>
