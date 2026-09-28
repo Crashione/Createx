@@ -70,3 +70,6 @@
         </div>
     </div>
 </footer>
+<script src="./js/main.js" defer></script>
+<script src="./js/slider.js" defer></script>
+</body>
