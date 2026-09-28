@@ -1,3 +1,5 @@
+</main>
+
 <footer>
     <div class="footer__top">
         <div class="container">
