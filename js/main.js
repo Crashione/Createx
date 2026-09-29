@@ -37,7 +37,7 @@ document.querySelectorAll('.work-tabs__list').forEach((tabs) => {
   if (!grid) return;
 
   const cards = grid.querySelectorAll('.project-card');
-
+  
   buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
       const filter = btn.dataset.filter;
