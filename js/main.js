@@ -37,7 +37,7 @@ document.querySelectorAll('.work-tabs__list').forEach((tabs) => {
   if (!grid) return;
 
   const cards = grid.querySelectorAll('.project-card');
-
+  
   buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
       const filter = btn.dataset.filter;
@@ -81,4 +81,20 @@ document.querySelectorAll('[data-testimonial-slider]').forEach((slider) => {
       show(index);
     });
   }
+});
+
+//футер форма 
+document.addEventListener('DOMContentLoaded', function() {
+  const checkbox = document.getElementById('checkbox');
+  const btnForm = document.getElementById('btn-form');
+
+
+  checkbox.addEventListener('change', function(){
+    if(checkbox.checked){
+    btnForm.disabled = false;
+  }else{
+    btnForm.disabled = true;
+
+  }
+  });
 });
