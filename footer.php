@@ -1,7 +1,7 @@
 </main>
 
 <footer>
-    <div class="footer__top">
+    <section class="footer__top">
         <div class="container">
             <div class="footer__block">
                 <div class="footer__block--title">
@@ -71,8 +71,8 @@
                 </form>
             </div>
         </div>
-    </div>
-    <div class="footer__bottom">
+    </section>
+    <section class="footer__bottom">
             <div class="container">
                 <div class="footer__bottom--block">
                     <div class="footer__bottom--left">
@@ -153,8 +153,9 @@
                     </div>
                 </div>
             </div>
-    </div> 
+    </section> 
 </footer>
 <script src="./js/main.js" defer></script>
+<script src="./js/project-slider.js" defer></script>
 <script src="./js/slider.js" defer></script>
 </body>
