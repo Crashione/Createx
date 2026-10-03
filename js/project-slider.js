@@ -1,6 +1,7 @@
+// сладер для фотографий
 document.addEventListener('DOMContentLoaded', function() {
-    const btnLeft = document.querySelector ('.project__btn--left');
-    const btnRight =document.querySelector ('.project__btn--right');
+    const btnProjectLeft = document.querySelector ('.project__btn--left');
+    const btnProjectRight =document.querySelector ('.project__btn--right');
 
 
     const projectMain = document.querySelectorAll ('.project__main-slide');
@@ -29,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     }
 
-    btnLeft.addEventListener ('click', function(){
+    btnProjectLeft.addEventListener ('click', function(){
         indexActive--;
         if(indexActive < 0){
             indexActive = maxIndex;
@@ -37,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         updateslide();
     });
 
-    btnRight.addEventListener ('click', function(){
+    btnProjectRight.addEventListener ('click', function(){
         indexActive++;
         if(indexActive > maxIndex){
             indexActive = 0;
@@ -54,4 +55,47 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
+
+    // слайдер для всех проектов
+    const similarSlider = document.querySelector('.similar__slider')
+    const btnSimilarLeft = document.querySelector('.similar__btn--left');
+    const btnSimilarRight = document.querySelector('.similar__btn--right');
+
+    const slideAll = document.querySelectorAll('.similar__slide');
+    const sliderContainer = document.querySelector('.similar__container');
+
+    let similarIndex = 0;
+    const similarMaxIndex = slideAll.length;
+    function getVisibleCount(){
+        const containerWidth = sliderContainer.offsetWidth;
+        const slideWidth = getWidth();
+        return Math.round(containerWidth / (slideWidth + 30)) || 1; 
+    }
+    function getWidth (){
+        const slide = document.querySelector('.similar__slide');
+        return slide.offsetWidth;
+    }
+
+    btnSimilarLeft.addEventListener('click', function(){
+            similarIndex--;
+            if(similarIndex < 0){
+                similarIndex = similarMaxIndex - getVisibleCount();
+            }
+            similarSlider.style.transform = `translateX(-${similarIndex * (getWidth()+30)}px)`;
+    })
+
+    btnSimilarRight.addEventListener('click', function(){
+            similarIndex++;
+            if(similarIndex > (similarMaxIndex-getVisibleCount())){
+                similarIndex = 0
+            }
+            similarSlider.style.transform = `translateX(-${similarIndex * (getWidth()+30)}px)`;
+        
+    })
+
+
+
+
+
 });
+
