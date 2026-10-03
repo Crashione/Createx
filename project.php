@@ -1,6 +1,6 @@
 <?php require 'doctype.php'; ?>
 
-<section class="section project">
+<section class="project">
     <div class="container">
         <div class="page-hero__path">Homepage/Work/Modern Cottage</div>
         <div class="project__title">
@@ -102,6 +102,142 @@
                     <div class="project__goal-value">May 2020</div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="decisions">
+    <div class="container">
+        <div class="decisions__container">
+            <div class="decisions__left">
+                <img src="img/projects/decisions.jpg" alt="" class="decisions__img">
+            </div>
+            <div class="decisions__right">
+                <div class="decisions__title">
+                    Constructive decisions
+                </div>
+                <ul class="decisions__list">
+                    <li class="decisions__item">Vitae ultrices ornare eu sed in est quisque duis id.</li>
+                    <li class="decisions__item">A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+                    <li class="decisions__item">Mauris odio pellentesque commodo, diam.</li>
+                    <li class="decisions__item">Fermentum vestibulum est fermentum, egestas gravida scelerisque quis.</li>
+                    <li class="decisions__item">At pharetra libero blandit risus, fringilla sed commodo diam.</li>
+                    <li class="decisions__item">Integer ultricies viverra ut enim viverra ut.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="similar">
+    <div class="container">
+        <div class="similar__container">
+            <div class="similar__title">Similar projects</div>
+            <div class="similar__nav">
+                <button class="similar__btn--left similar__btn">
+                    <img src="img/single-service/arrow-prev.svg" alt="">
+                </button>
+                <button class="similar__btn--right similar__btn">
+                    <img src="img/single-service/arrow-next.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="similar__slider-container">
+            <div class="similar__slider">
+                <div class="similar__slide project-card">
+                    <div class="project-card__media">
+                        <img src="./img/page-work/project-1.jpg" alt="">
+                    </div>
+                    <div class="project-card__body">
+                    <h3 class="project-card__title">Red Finger Building</h3>
+                    <p class="project-card__category">Business Centers</p>
+                    <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+                    </div>
+                </div>
+                <div class="similar__slide project-card">
+                    <div class="project-card__media">
+                        <img src="./img/page-work/project-2.jpg" alt="">
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Cubes Building</h3>
+                        <p class="project-card__category">Business Centers</p>
+                        <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+                    </div>
+                </div>
+                <div class="similar__slide project-card">
+                    <div class="project-card__media">
+                        <img src="./img/page-work/project-3.jpg" alt="">
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">The Pencil Building</h3>
+                        <p class="project-card__category">Stores &amp; Malls</p>
+                        <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+                    </div>
+                </div>
+                <div class="similar__slide project-card">
+                    <div class="project-card__media">
+                        <img src="./img/page-work/project-4.jpg" alt="">
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Modern Cottage</h3>
+                        <p class="project-card__category">Private Houses</p>
+                        <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+                    </div>
+                </div>
+                <div class="similar__slide project-card">
+                    <div class="project-card__media">
+                        <img src="./img/page-work/project-5.jpg" alt="">
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Modern Double Bedroom</h3>
+                        <p class="project-card__category">Apartments &amp; Flats</p>
+                        <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+                    </div>
+                </div>
+                <div class="similar__slide project-card">
+                    <div class="project-card__media">
+                        <img src="./img/page-work/project-6.jpg" alt="">
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Luxury Beach House</h3>
+                        <p class="project-card__category">Private Houses</p>
+                        <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+                    </div>
+                </div>
+                <div class="similar__slide project-card">
+                    <div class="project-card__media">
+                        <img src="./img/page-work/project-7.jpg" alt="">
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Kids Bedroom With Decorations</h3>
+                        <p class="project-card__category">Apartments &amp; Flats</p>
+                        <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+                    </div>
+                </div>
+                <div class="similar__slide project-card">
+                    <div class="project-card__media">
+                        <img src="./img/page-work/project-8.jpg" alt="">
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Brown and Gray Painted House</h3>
+                        <p class="project-card__category">Private Houses</p>
+                        <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+                    </div>
+                </div>
+                <div class="similar__slide project-card">
+                    <div class="project-card__media">
+                        <img src="./img/page-work/project-9.jpg" alt="">
+                    </div>
+                    <div class="project-card__body">
+                        <h3 class="project-card__title">Scandinavian Style Interior</h3>
+                        <p class="project-card__category">Private Houses</p>
+                        <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="similar__link">
+            <div class="link__title">Explore all our works</div>
+            <a href="page-work.php" class="link__dtn btn__filled">View portfolio</a>
         </div>
     </div>
 </section>
