@@ -7,25 +7,25 @@
             SERVICES
             </h1>
             <div class="page-hero__desc">
-                If you are looking for a full-service 
-                construction company, look to Createx 
-                Construction Bureau. We are doing our 
-                best to be a partner for all of your construction needs.
+                If you are looking for a full-service 
+                construction company, look to Createx 
+                Construction Bureau. We are doing our 
+                best to be a partner for all of your construction needs.
             </div>
         </div>
     </div>
     <div class="page-hero__media">
-            <img src="/img/services/services_header.png" alt="" class="page-hero__img">
+            <img src="/img/services/services_header.png" alt="Construction services offered by Createx Construction Bureau" class="page-hero__img">
         </div>
 </section>
 
 <section class="section our-services">
-    <img src="/img/services/bg-image.png" alt="" class="service-card__bg1">
-    <img src="/img/services/bg-image.png" alt="" class="service-card__bg2">
+    <img src="/img/services/bg-image.png" alt="" class="service-card__bg1" aria-hidden="true">
+    <img src="/img/services/bg-image.png" alt="" class="service-card__bg2" aria-hidden="true">
     <div class="container">
         <div class="service-card">
             <div class="service-card__img">
-                <img src="/img/services/1.jpg" alt="">
+                <img src="/img/services/1.jpg" alt="Construction site with cranes and workers">
             </div>
             <div class="service-card__content">
                 <div class="service-card__title">
@@ -46,7 +46,7 @@
         </div>
         <div class="service-card">
             <div class="service-card__img">
-                <img src="/img/services/2.jpg" alt="">
+                <img src="/img/services/2.jpg" alt="Architectural blueprints and design documents">
             </div>
             <div class="service-card__content">
                 <div class="service-card__title">
@@ -66,7 +66,7 @@
         </div>
         <div class="service-card">
             <div class="service-card__img">
-                <img src="/img/services/3.jpg" alt="">
+                <img src="/img/services/3.jpg" alt="Modern interior design of a living room">
             </div>
             <div class="service-card__content">
                 <div class="service-card__title">
@@ -89,7 +89,7 @@
         </div>
         <div class="service-card">
             <div class="service-card__img">
-                <img src="/img/services/4.jpg" alt="">
+                <img src="/img/services/4.jpg" alt="Repair tools and ladder on a construction site">
             </div>
             <div class="service-card__content">
                 <div class="service-card__title">
@@ -109,5 +109,3 @@
     </div>
 </section>
 <?php require 'footer.php'; ?>
-</body>
-</html>
