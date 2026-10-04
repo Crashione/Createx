@@ -136,7 +136,7 @@
                 <button class="similar__btn--left similar__btn">
                     <img src="img/single-service/arrow-prev.svg" alt="">
                 </button>
-                <button class="similar__btn--right similar__btn">
+                <button class="similar__btn--right similar__btn similar__btn-active">
                     <img src="img/single-service/arrow-next.svg" alt="">
                 </button>
             </div>
