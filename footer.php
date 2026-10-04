@@ -78,14 +78,16 @@
                     <div class="footer__bottom--left">
                        <div class="footer__left--row">
                             <div class="footer__bottom--logo">
-                                <img src="img/footer/logo-white.svg" alt="">
+                                <a href="#">
+                                    <img src="img/footer/logo-white.svg" alt="">
+                                </a>
                             </div>
                             <ul class="footer__bottom--socials">
-                                <li class="footer__bottom--social"><img src="img/footer/socials/1.svg" alt=""></li>
-                                <li class="footer__bottom--social"><img src="img/footer/socials/2.svg" alt=""></li>
-                                <li class="footer__bottom--social"><img src="img/footer/socials/3.svg" alt=""></li>
-                                <li class="footer__bottom--social"><img src="img/footer/socials/4.svg" alt=""></li>
-                                <li class="footer__bottom--social"><img src="img/footer/socials/5.svg" alt=""></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/1.svg" alt=""></a></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/2.svg" alt=""></a></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/3.svg" alt=""></a></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/4.svg" alt=""></a></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/5.svg" alt=""></a></li>
                             </ul>
                        </div>
                         <div class="footer__bottom--desc">
@@ -155,6 +157,7 @@
             </div>
     </section> 
 </footer>
+<script src="/js/news-pagination.js"></script>
 <script src="./js/main.js" defer></script>
 <script src="./js/project-slider.js" defer></script>
 <script src="./js/slider.js" defer></script>
