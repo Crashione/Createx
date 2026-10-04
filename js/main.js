@@ -189,3 +189,47 @@ document.querySelectorAll('[data-history]').forEach((root) => {
   img.classList.add('is-visible');
   text.classList.add('is-visible');
 });
+
+// Модалка
+(function () {
+  const openers = document.querySelectorAll('[data-modal-open]');
+  if (!openers.length) return;
+
+  const openModal = (id) => {
+    const modal = document.getElementById('modal-' + id);
+    if (!modal) return;
+    modal.hidden = false;
+    document.body.classList.add('modal-open');
+
+    const firstInput = modal.querySelector('input, select, textarea, button');
+    if (firstInput) firstInput.focus();
+  };
+
+  const closeModal = (modal) => {
+    if (!modal) return;
+    modal.hidden = true;
+    document.body.classList.remove('modal-open');
+  };
+
+  const closeAll = () => {
+    document.querySelectorAll('.modal').forEach(closeModal);
+    document.body.classList.remove('modal-open');
+  };
+
+  openers.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const id = btn.dataset.modalOpen;
+      if (id) openModal(id);
+    });
+  });
+
+  document.querySelectorAll('.modal').forEach((modal) => {
+    modal.querySelectorAll('[data-modal-close]').forEach((el) => {
+      el.addEventListener('click', () => closeModal(modal));
+    });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeAll();
+  });
+})();
