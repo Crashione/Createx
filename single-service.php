@@ -14,14 +14,14 @@
         </div>
     </div>
     <div class="page-hero__media">
-            <img src="/img/services/service.png" alt="" class="page-hero__img">
+            <img src="/img/services/service.png" alt="Interior design services — Createx Construction Bureau" class="page-hero__img">
     </div>
   </section>
   <section class="offer">
     <div class="container offer__inner">
 
       <div class="offer__media">
-        <img src="./img/single-service/interior-offer.jpg" alt="Interior design">
+        <img src="./img/single-service/interior-offer.jpg" alt="Modern kitchen interior designed by Createx">
       </div>
 
       <div class="offer__content">
@@ -96,17 +96,17 @@
 
       <div class="benefits__grid">
         <div class="benefit">
-          <img src="./img/single-service/ic-contract.svg" alt="" class="benefit__icon" width="48" height="48">
+          <img src="./img/single-service/ic-contract.svg" alt="Fixed terms and cost icon" class="benefit__icon" width="48" height="48">
           <h3 class="benefit__title">Fixed Terms &amp; Cost</h3>
           <p class="benefit__desc">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
         </div>
         <div class="benefit">
-          <img src="./img/single-service/ic-helmet.svg" alt="" class="benefit__icon" width="48" height="48">
+          <img src="./img/single-service/ic-helmet.svg" alt="Qualified workers icon" class="benefit__icon" width="48" height="48">
           <h3 class="benefit__title">Qualified Workers</h3>
           <p class="benefit__desc">Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
         </div>
         <div class="benefit">
-          <img src="./img/single-service/ic-camera.svg" alt="" class="benefit__icon" width="48" height="48">
+          <img src="./img/single-service/ic-camera.svg" alt="Supervision and control icon" class="benefit__icon" width="48" height="48">
           <h3 class="benefit__title">Supervision &amp; Control</h3>
           <p class="benefit__desc">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
         </div>
@@ -125,10 +125,10 @@
         <h2 class="portfolio__title">Related projects</h2>
         <div class="slider-nav">
           <button class="slider-nav__btn slider-nav__btn--prev" aria-label="Previous">
-            <img src="./img/single-service/arrow-prev.svg" alt="">
+            <img src="./img/single-service/arrow-prev.svg" alt="Previous project">
           </button>
           <button class="slider-nav__btn slider-nav__btn--next" aria-label="Next">
-            <img src="./img/single-service/arrow-next.svg" alt="">
+            <img src="./img/single-service/arrow-next.svg" alt="Next project">
           </button>
         </div>
       </div>
@@ -138,7 +138,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/single-service/project-1.jpg" alt="Kids Bedroom With Decorations">
+              <img src="./img/single-service/project-1.jpg" alt="Kids Bedroom With Decorations project">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Kids Bedroom With Decorations</h3>
@@ -149,7 +149,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/single-service/project-2.jpg" alt="Modern Double Bedroom">
+              <img src="./img/single-service/project-2.jpg" alt="Modern Double Bedroom project">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Modern Double Bedroom</h3>
@@ -160,7 +160,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/single-service/project-3.jpg" alt="Scandinavian Style Interior">
+              <img src="./img/single-service/project-3.jpg" alt="Scandinavian Style Interior project">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Scandinavian Style Interior</h3>
@@ -207,51 +207,51 @@
           <tbody>
             <tr>
               <td>Installation plan</td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
             </tr>
             <tr>
               <td>Planning solutions (2-3 options)</td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
             </tr>
             <tr>
               <td>Lighting plan</td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
             </tr>
             <tr>
               <td>Flooring plan</td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
             </tr>
             <tr>
               <td>Heating floor laying scheme</td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
             </tr>
             <tr>
               <td>Air conditioner zones layout</td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
-              <td><span class="mark mark--check"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
             </tr>
             <tr>
               <td>3D visualization of all rooms</td>
-              <td><span class="mark mark--dash"></span></td>
+              <td><span class="mark mark--dash" role="img" aria-label="Not included"></span></td>
               <td><span class="mark mark--text">simplified</span></td>
-              <td><span class="mark mark--check"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
             </tr>
             <tr>
               <td>Visualization of each room (3-4 angles)</td>
-              <td><span class="mark mark--dash"></span></td>
-              <td><span class="mark mark--dash"></span></td>
-              <td><span class="mark mark--check"></span></td>
+              <td><span class="mark mark--dash" role="img" aria-label="Not included"></span></td>
+              <td><span class="mark mark--dash" role="img" aria-label="Not included"></span></td>
+              <td><span class="mark mark--check" role="img" aria-label="Included"></span></td>
             </tr>
             <tr>
               <td>Terms</td>
@@ -279,12 +279,12 @@
       <h2 class="partners__title">Supported by 12+ partners</h2>
 
       <div class="partners__grid">
-        <img src="./img/single-service/partner-indepth.svg" alt="InDepth Consulting">
-        <img src="./img/single-service/partner-higher.svg" alt="Higher Fit">
-        <img src="./img/single-service/partner-sentinal.svg" alt="Sentinal Consulting">
-        <img src="./img/single-service/partner-happy.svg" alt="Happy Home">
-        <img src="./img/single-service/partner-forsale.svg" alt="For Sale">
-        <img src="./img/single-service/partner-sunset.svg" alt="Sunset Realty">
+        <img src="./img/single-service/partner-indepth.svg" alt="InDepth Consulting logo">
+        <img src="./img/single-service/partner-higher.svg" alt="Higher Fit logo">
+        <img src="./img/single-service/partner-sentinal.svg" alt="Sentinal Consulting logo">
+        <img src="./img/single-service/partner-happy.svg" alt="Happy Home logo">
+        <img src="./img/single-service/partner-forsale.svg" alt="For Sale logo">
+        <img src="./img/single-service/partner-sunset.svg" alt="Sunset Realty logo">
       </div>
     </div>
   </section>
