@@ -48,6 +48,8 @@ const btnSimilarLeft = document.querySelector('.similar__btn--left');
 const btnSimilarRight = document.querySelector('.similar__btn--right');
 const slideAll = document.querySelectorAll('.similar__slide');
 const sliderContainer = document.querySelector('.similar__container');
+ const imgLeft = document.querySelector('.similar__img--left');
+const imgRight = document.querySelector('.similar__img--right');
 
 if (similarSlider && btnSimilarLeft && btnSimilarRight && slideAll.length) {
     let similarIndex = 0;
@@ -65,21 +67,29 @@ if (similarSlider && btnSimilarLeft && btnSimilarRight && slideAll.length) {
 
 
     function updateButtons() {
+   
     const maxIndex = slideAll.length - getVisibleCount();
     if (similarIndex <= 0) {
         btnSimilarLeft.disabled = true;
         btnSimilarLeft.classList.remove('similar__btn-active');
+        imgLeft.classList.remove('similar__active');
     } else {
         btnSimilarLeft.disabled = false;
         btnSimilarLeft.classList.add('similar__btn-active');
+        imgLeft.classList.add('similar__active');
+
     }
 
     if (similarIndex >= maxIndex) {
         btnSimilarRight.disabled = true;
         btnSimilarRight.classList.remove('similar__btn-active');
+        imgRight.classList.remove('similar__active');
+
     } else {
         btnSimilarRight.disabled = false;
         btnSimilarRight.classList.add('similar__btn-active');
+        imgRight.classList.add('similar__active');
+
     }
     }
     function moviSlide(){

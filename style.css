@@ -400,11 +400,18 @@ body{
 }
 .similar__nav{
   display: flex;
+  gap: 5px;
+}
+.similar__active{
+  filter: brightness(0) invert(1);
+
+}
+.similar__btn-active{
+  background: var(--orange);
 }
 .similar__btn{
   padding: 12px;
   border-radius: 100%;
-  background: var(--orange);
 }
 .similar__slider-container{
   overflow: hidden;

@@ -133,11 +133,11 @@
         <div class="similar__container">
             <div class="similar__title">Similar projects</div>
             <div class="similar__nav">
-                <button class="similar__btn--left similar__btn">
-                    <img src="img/single-service/arrow-prev.svg" alt="">
+                <button class="similar__btn--left similar__btn" disabled>
+                    <img src="img/single-service/arrow-prev.svg" alt="" class="similar__img--left ">
                 </button>
                 <button class="similar__btn--right similar__btn similar__btn-active">
-                    <img src="img/single-service/arrow-next.svg" alt="">
+                    <img src="img/single-service/arrow-next.svg" alt="" class="similar__img--right similar__active">
                 </button>
             </div>
         </div>
