@@ -157,7 +157,7 @@
             </div>
     </section> 
 </footer>
-<script src="/js/news-pagination.js"></script>
+<script src="./js/news-pagination.js"></script>
 <script src="./js/main.js" defer></script>
 <script src="./js/project-slider.js" defer></script>
 <script src="./js/slider.js" defer></script>

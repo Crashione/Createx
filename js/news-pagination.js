@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     
         allNews.forEach(function(news) {
-            const newsCategories = news.getAttribute('data-category');
+            const newsCategories = news.getAttribute('data-news-category');
             if (currentFilter === 'all' || newsCategories === currentFilter) {
                 filteredNews.push(news);
                 counterNews++;
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             categories.classList.add('categories__item--active');
 
-            currentFilter = categories.getAttribute('data-filter');
+            currentFilter = categories.getAttribute('data-news-filter');
             currentPage = 1; 
 
             updateLayout();
