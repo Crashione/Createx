@@ -23,15 +23,15 @@
             Categories
         </div>
         <ul class="categories__filter">
-            <li class="categories__item categories__item--active" data-filter="all">All News</li>
-            <li class="categories__item" data-filter="company">Company News</li>
-            <li class="categories__item" data-filter="innovation">Innovation</li>
-            <li class="categories__item" data-filter="industry">Industry News</li>
-            <li class="categories__item" data-filter="expert">Expert Tips</li>
-            <li class="categories__item" data-filter="marketing">Marketing</li>
+            <li class="categories__item categories__item--active" data-news-filter="all">All News</li>
+            <li class="categories__item" data-news-filter="company">Company News</li>
+            <li class="categories__item" data-news-filter="innovation">Innovation</li>
+            <li class="categories__item" data-news-filter="industry">Industry News</li>
+            <li class="categories__item" data-news-filter="expert">Expert Tips</li>
+            <li class="categories__item" data-news-filter="marketing">Marketing</li>
         </ul>
         <div class="categories__container">
-            <div class="news__container" data-category="industry">
+            <div class="news__container" data-news-category="industry">
                 <div class="news__img-container">
                     <img src="img/news/news-img/1.jpg" alt="" class="new__img" width="600" height="306">
                 </div>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="news__container" data-category="innovation">
+            <div class="news__container" data-news-category="innovation">
                 <div class="news__img-container">
                     <img src="img/news/news-img/2.jpg" alt="" class="new__img"  width="600" height="306">
                 </div>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </div>
-            <div class="news__container" data-category="expert">
+            <div class="news__container" data-news-category="expert">
                 <div class="news__img-container">
                     <img src="img/news/news-img/3.jpg" alt="" class="new__img"  width="600" height="306">
                 </div>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="news__container" data-category="expert">
+            <div class="news__container" data-news-category="expert">
                 <div class="news__img-container">
                     <img src="img/news/news-img/4.jpg" alt="" class="new__img"  width="600" height="306">
                 </div>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
             </div>
-            <div class="news__container" data-category="industry">
+            <div class="news__container" data-news-category="industry">
                 <div class="news__img-container">
                     <img src="img/news/news-img/5.jpg" alt="" class="new__img"  width="600" height="306">
                 </div>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
             </div>
-            <div class="news__container" data-category="company">
+            <div class="news__container" data-news-category="company">
                 <div class="news__img-container">
                     <img src="img/news/news-img/6.jpg" alt="" class="new__img"  width="600" height="306">
                 </div>
@@ -211,6 +211,8 @@
                     </div>
                 </div>
             </div>
+
+            
             
         </div>
         <div class="news__empty">
