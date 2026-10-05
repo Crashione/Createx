@@ -382,6 +382,7 @@ body{
   font-size: 16px;
   line-height: 160%;
   position: relative;
+  
 
 }
 .decisions__item::before{
@@ -565,7 +566,168 @@ body{
 .post__title{
   color: var(--orange);
 }
+.post__body-img{
+  width: 100%;
+  position: relative;
+  top: -80px;
+  border-radius: 4px;
 
+}
+.post__body-container{
+  max-width: 810px;
+  margin: 0 auto;
+}
+.post__body-title{
+  
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  padding-bottom: 24px;
+}
+.post__body-desc{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  padding-bottom: 24px;
+}
+.post__body-item{
+  box-sizing: border-box;
+  
+}
+.post__body-list{
+  padding-left: 35px;
+  margin-bottom: 24px;
+}
+
+.post__body-share{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-top: 36px;
+}
+.post__share-item{
+  display: block;
+}
+.post__body-footnote{
+display: flex;
+gap: 30px;
+margin: 24px 0 24px;
+}
+.post__body-footnote:before{
+  content: url(img/post/braces.svg);
+}
+
+
+
+.comment-respond {
+  max-width: 810px; 
+  margin-bottom:180px ;
+  padding: 0 15px;
+  font-family: 'Ubuntu', 'Segoe UI', sans-serif; 
+}
+
+
+.comment-reply-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #1E212C;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.comment-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group-half {
+  width: 48.5%; 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+
+.form-group-full {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+
+.comment-form label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #424551;
+  margin-bottom: 8px;
+}
+
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+  background-color: #F4F5F7;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  padding: 13px 16px;
+  font-size: 14px;
+  color: #1E212C;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+
+.comment-form textarea {
+   min-height: 120px;
+  max-height: 250px;
+  resize: vertical;
+  overflow-y: auto;
+}
+
+.comment-form input:focus,
+.comment-form textarea:focus {
+  border-color: var(--gray-dark);
+  background-color: var(--white);
+}
+
+
+.comment-form ::placeholder {
+  color: #9A9CA5;
+  opacity: 1;
+}
+
+
+.form-submit-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: var(--orange);;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+
+.submit-button:hover {
+  background-color: var(--orange); 
+}
+
+.submit-button:active {
+  transform: scale(0.98);
+}
 
 
 
