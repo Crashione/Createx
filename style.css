@@ -1,13 +1,14 @@
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', Arial, sans-serif;;
   src: url('fonts/Ubuntu-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+  
 }
 
 @font-face {
-  font-family: 'Ubuntu'; 
+  font-family: 'Ubuntu', Arial, sans-serif;; 
   src: url('fonts/Ubuntu-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
@@ -116,7 +117,62 @@ body{
   opacity: 0.5;
   pointer-events: none;
 }
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding-top: 20px;
+}
+.header__row{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav{
+  display: flex;
+  gap: 40px;
+}
+.header__contact{
+  display: flex;
+  gap: 36px;
+}
+.header__tel,
+.header__email{
+display: flex;
+gap: 12px;
+}
+.header__tel::before,
+.header__email::before{
+content: "";
+width: 40px;   
+height: 40px; 
+display: block;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
 
+.header__tel::before{
+background: url(img/header/tell.svg); 
+
+}
+.header__email::before{
+background: url(img/header/chat.svg);
+
+
+}
+.header__item{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--gray-dark);
+}
+.header__item:active{
+  color: var(--orange);
+}
 
 
 
