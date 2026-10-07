@@ -1,13 +1,14 @@
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', Arial, sans-serif;;
   src: url('fonts/Ubuntu-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+  
 }
 
 @font-face {
-  font-family: 'Ubuntu'; 
+  font-family: 'Ubuntu', Arial, sans-serif;; 
   src: url('fonts/Ubuntu-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
@@ -116,7 +117,62 @@ body{
   opacity: 0.5;
   pointer-events: none;
 }
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding-top: 20px;
+}
+.header__row{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav{
+  display: flex;
+  gap: 40px;
+}
+.header__contact{
+  display: flex;
+  gap: 36px;
+}
+.header__tel,
+.header__email{
+display: flex;
+gap: 12px;
+}
+.header__tel::before,
+.header__email::before{
+content: "";
+width: 40px;   
+height: 40px; 
+display: block;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
 
+.header__tel::before{
+background: url(img/header/tell.svg); 
+
+}
+.header__email::before{
+background: url(img/header/chat.svg);
+
+
+}
+.header__item{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--gray-dark);
+}
+.header__item:active{
+  color: var(--orange);
+}
 
 
 
@@ -229,6 +285,7 @@ body{
   padding: 18px 15px;
   border-radius: 100%;
   opacity: 0.5;
+  background-color: white;
 }
 .project__btn--left{
   top: 50%;
@@ -381,6 +438,7 @@ body{
   font-size: 16px;
   line-height: 160%;
   position: relative;
+  
 
 }
 .decisions__item::before{
@@ -415,8 +473,9 @@ body{
   background: var(--orange);
 }
 .similar__btn{
-  padding: 12px;
+  padding: 12px 16px;
   border-radius: 100%;
+  display: block;
 }
 .similar__slider-container{
   overflow: hidden;
@@ -438,9 +497,293 @@ body{
   font-weight: 700;
   font-size: 28px;
   line-height: 150%;
+} 
+
+
+.categories{
+  margin: 120px 0 180px;
+}
+
+.categories__title{
+  font-size: 46px;
+  line-height: 130%;
+  text-align: center;
+}
+.categories__item{
+  padding: 10px 45px;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--gray);
+}
+.categories__item--active{
+  border: 1px solid var(--orange);
+  border-radius: 4px;
+  color: var(--orange);
+  padding: 9px 44px;
+}
+.categories__filter{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 60px;
+}
+.categories__container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 54px;
+  cursor: pointer;
+
+}
+.news__container{
+  max-width: 600px;
+  
+}
+.news__container:hover .news__body-title{
+  color: var(--orange);
+}
+.news__body{
+  padding: 24px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05), 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.news__body-title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+.news__body-info{
+  display: flex;
+  color: var(--gray);
+  gap: 10px;
+}
+.news__body-desc{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+.news__empty{
+  display: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: var(--gray);
+  text-align: center;
+
+}
+.news__empty--active{
+  display: block;
+}
+.categories__pagination{
+  display: flex;
+  gap: 20px;
+ justify-content: center;
+ padding-top: 60px;
+
+}
+.pagination__btn{
+  font-size: 16px;
+  
+
+}
+.pagination__btn--active{
+  color: var(--orange);
 }
 
 
+
+.post__header{
+  background-color: #F4F5F6;
+}
+.post__header-title{
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
+.post__header-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0 160px;
+
+}
+.post__header-left{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--gray);
+  display: flex;
+  gap: 5px;
+}
+.post__header-right{
+  display: flex;
+  gap: 12px;
+}
+.post__title{
+  color: var(--orange);
+}
+.post__body-img{
+  width: 100%;
+  position: relative;
+  top: -80px;
+  border-radius: 4px;
+
+}
+.post__body-container{
+  max-width: 810px;
+  margin: 0 auto;
+}
+.post__body-title{
+  
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  padding-bottom: 24px;
+}
+.post__body-desc{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  padding-bottom: 24px;
+}
+.post__body-item{
+  box-sizing: border-box;
+  
+}
+.post__body-list{
+  padding-left: 35px;
+  margin-bottom: 24px;
+}
+
+.post__body-share{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-top: 36px;
+}
+.post__share-item{
+  display: block;
+}
+.post__body-footnote{
+display: flex;
+gap: 30px;
+margin: 24px 0 24px;
+}
+.post__body-footnote:before{
+  content: url(img/post/braces.svg);
+}
+
+
+
+.comment-respond {
+  max-width: 810px; 
+  margin-bottom:180px ;
+  padding: 0 15px;
+  font-family: 'Ubuntu', 'Segoe UI', sans-serif; 
+}
+
+
+.comment-reply-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #1E212C;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.comment-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group-half {
+  width: 48.5%; 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+
+.form-group-full {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+
+.comment-form label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #424551;
+  margin-bottom: 8px;
+}
+
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+  background-color: #F4F5F7;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  padding: 13px 16px;
+  font-size: 14px;
+  color: #1E212C;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+
+.comment-form textarea {
+   min-height: 120px;
+  max-height: 250px;
+  resize: vertical;
+  overflow-y: auto;
+}
+
+.comment-form input:focus,
+.comment-form textarea:focus {
+  border-color: var(--gray-dark);
+  background-color: var(--white);
+}
+
+
+.comment-form ::placeholder {
+  color: #9A9CA5;
+  opacity: 1;
+}
+
+
+.form-submit-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: var(--orange);;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+
+.submit-button:hover {
+  background-color: var(--orange); 
+}
+
+.submit-button:active {
+  transform: scale(0.98);
+}
 
 
 
