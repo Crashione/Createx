@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="page-hero__media">
-      <img src="./img/about/hero.png" alt="Createx Construction Bureau office building" class="page-hero__img">
+      <img src="./img/about/hero.png" alt="Createx Construction Bureau office building" class="page-hero__img" fetchpriority="high" decoding="async">
     </div>
   </section>
 
@@ -22,7 +22,7 @@
       <div class="statistics__grid">
 
         <div class="stat-item">
-          <img src="./img/about/ic-like.svg" alt="" aria-hidden="true" class="stat-item__icon">
+          <img src="./img/about/ic-like.svg" alt="" aria-hidden="true" class="stat-item__icon" loading="lazy" decoding="async" width="48" height="48">
           <div class="stat-item__inner">
             <span class="stat-item__value">60%</span>
             <span class="stat-item__label">Clients on the recommendation of friends</span>
@@ -30,7 +30,7 @@
         </div>
 
         <div class="stat-item">
-          <img src="./img/about/ic-painting.svg" alt="" aria-hidden="true" class="stat-item__icon">
+          <img src="./img/about/ic-painting.svg" alt="" aria-hidden="true" class="stat-item__icon" loading="lazy" decoding="async" width="48" height="48">
           <div class="stat-item__inner">
             <span class="stat-item__value">2400+</span>
             <span class="stat-item__label">Apartments renovated</span>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="stat-item">
-          <img src="./img/about/ic-helmet.svg" alt="" aria-hidden="true" class="stat-item__icon">
+          <img src="./img/about/ic-helmet.svg" alt="" aria-hidden="true" class="stat-item__icon" loading="lazy" decoding="async" width="48" height="48">
           <div class="stat-item__inner">
             <span class="stat-item__value">670</span>
             <span class="stat-item__label">Qualified specialists</span>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="stat-item">
-          <img src="./img/about/ic-pantone.svg" alt="" aria-hidden="true" class="stat-item__icon">
+          <img src="./img/about/ic-pantone.svg" alt="" aria-hidden="true" class="stat-item__icon" loading="lazy" decoding="async" width="48" height="48">
           <div class="stat-item__inner">
             <span class="stat-item__value">150000+ m²</span>
             <span class="stat-item__label">Finishing work was carried out</span>
@@ -61,7 +61,7 @@
     <div class="container ceo__inner">
 
       <div class="ceo__media">
-        <img src="./img/about/ceo.jpg" alt="Courtney Alexander, CEO of Createx Construction Bureau">
+        <img src="./img/about/ceo.jpg" alt="Courtney Alexander, CEO of Createx Construction Bureau" loading="lazy" decoding="async" width="525" height="580">
       </div>
 
       <div class="ceo__quote">
@@ -81,7 +81,7 @@
             <strong class="ceo__name">Courtney Alexander</strong>
             <span class="ceo__position">CEO - Createx Construction Bureau</span>
           </div>
-          <img src="./img/about/signature.svg" alt="Signature of Courtney Alexander, CEO" class="ceo__signature">
+          <img src="./img/about/signature.svg" alt="Signature of Courtney Alexander, CEO" class="ceo__signature" loading="lazy" decoding="async" width="525" height="580">
         </div>
       </div>
 
@@ -151,7 +151,7 @@
 
         <div class="history__slider">
           <div class="history__media">
-            <img src="./img/about/history-present.jpg" alt="Createx Construction Bureau present day — active construction site" class="history__img is-visible">
+            <img src="./img/about/history-present.jpg" alt="Createx Construction Bureau present day — active construction site" class="history__img is-visible" loading="lazy" decoding="async" width="810" height="450">
           </div>
           <p class="history__text is-visible">
             Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in.
@@ -171,19 +171,19 @@
       <p class="partners__subtitle">We are supported by 12+ industry bodies and media partners</p>
 
       <div class="partners__grid partners__grid--two-rows">
-        <img src="./img/single-service/partner-indepth.svg" alt="InDepth Consulting logo">
-        <img src="./img/single-service/partner-higher.svg" alt="Higher Fit logo">
-        <img src="./img/single-service/partner-sentinal.svg" alt="Sentinal Consulting logo">
-        <img src="./img/single-service/partner-happy.svg" alt="Happy Home logo">
-        <img src="./img/single-service/partner-forsale.svg" alt="For Sale logo">
-        <img src="./img/single-service/partner-sunset.svg" alt="Sunset Realty logo">
+        <img src="./img/single-service/partner-indepth.svg" alt="InDepth Consulting logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-higher.svg" alt="Higher Fit logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-sentinal.svg" alt="Sentinal Consulting logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-happy.svg" alt="Happy Home logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-forsale.svg" alt="For Sale logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-sunset.svg" alt="Sunset Realty logo" loading="lazy" decoding="async" width="120" height="64">
 
-        <img src="./img/about/partner-atlantis.svg" alt="Atlantis Health logo">
-        <img src="./img/about/partner-delmar.svg" alt="Del Mar Strategy logo">
-        <img src="./img/about/partner-complete.svg" alt="Complete Health logo">
-        <img src="./img/about/partner-national.svg" alt="National Health logo">
-        <img src="./img/about/partner-ultimate.svg" alt="Ultimate Gym logo">
-        <img src="./img/about/partner-united.svg" alt="United Strategy logo">
+        <img src="./img/about/partner-atlantis.svg" alt="Atlantis Health logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/about/partner-delmar.svg" alt="Del Mar Strategy logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/about/partner-complete.svg" alt="Complete Health logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/about/partner-national.svg" alt="National Health logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/about/partner-ultimate.svg" alt="Ultimate Gym logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/about/partner-united.svg" alt="United Strategy logo" loading="lazy" decoding="async" width="120" height="64">
       </div>
     </div>
   </section>
@@ -196,7 +196,7 @@
 
         <article class="team-card">
           <div class="team-card__media">
-            <img src="./img/about/team-1.jpg" alt="Courtney Alexander, CEO and Co-Founder of Createx">
+            <img src="./img/about/team-1.jpg" alt="Courtney Alexander, CEO and Co-Founder of Createx" loading="lazy" decoding="async" width="285" height="340">
             <div class="team-card__overlay">
               <div class="team-card__socials">
                 <a href="#" class="team-card__social team-card__social--li" aria-label="LinkedIn profile of Courtney Alexander"></a>
@@ -211,7 +211,7 @@
 
         <article class="team-card">
           <div class="team-card__media">
-            <img src="./img/about/team-2.jpg" alt="Calvin Fox, CTO and Co-Founder of Createx">
+            <img src="./img/about/team-2.jpg" alt="Calvin Fox, CTO and Co-Founder of Createx" loading="lazy" decoding="async" width="285" height="340">
             <div class="team-card__overlay">
               <div class="team-card__socials">
                 <a href="#" class="team-card__social team-card__social--li" aria-label="LinkedIn profile of Calvin Fox"></a>
@@ -226,7 +226,7 @@
 
         <article class="team-card">
           <div class="team-card__media">
-            <img src="./img/about/team-3.jpg" alt="Johnny Lane, Commercial Manager at Createx">
+            <img src="./img/about/team-3.jpg" alt="Johnny Lane, Commercial Manager at Createx" loading="lazy" decoding="async" width="285" height="340">
             <div class="team-card__overlay">
               <div class="team-card__socials">
                 <a href="#" class="team-card__social team-card__social--li" aria-label="LinkedIn profile of Johnny Lane"></a>
@@ -241,7 +241,7 @@
 
         <article class="team-card">
           <div class="team-card__media">
-            <img src="./img/about/team-4.jpg" alt="Diane Mccoy, Director of Human Resources at Createx">
+            <img src="./img/about/team-4.jpg" alt="Diane Mccoy, Director of Human Resources at Createx" loading="lazy" decoding="async" width="285" height="340">
             <div class="team-card__overlay">
               <div class="team-card__socials">
                 <a href="#" class="team-card__social team-card__social--li" aria-label="LinkedIn profile of Diane Mccoy"></a>
@@ -256,7 +256,7 @@
 
         <article class="team-card">
           <div class="team-card__media">
-            <img src="./img/about/team-5.jpg" alt="Judith Warren, Lead Accountant at Createx">
+            <img src="./img/about/team-5.jpg" alt="Judith Warren, Lead Accountant at Createx" loading="lazy" decoding="async" width="285" height="340">
             <div class="team-card__overlay">
               <div class="team-card__socials">
                 <a href="#" class="team-card__social team-card__social--li" aria-label="LinkedIn profile of Judith Warren"></a>
@@ -271,7 +271,7 @@
 
         <article class="team-card">
           <div class="team-card__media">
-            <img src="./img/about/team-6.jpg" alt="Floyd Simmons, Financial Director at Createx">
+            <img src="./img/about/team-6.jpg" alt="Floyd Simmons, Financial Director at Createx" loading="lazy" decoding="async" width="285" height="340">
             <div class="team-card__overlay">
               <div class="team-card__socials">
                 <a href="#" class="team-card__social team-card__social--li" aria-label="LinkedIn profile of Floyd Simmons"></a>
@@ -286,7 +286,7 @@
 
         <article class="team-card">
           <div class="team-card__media">
-            <img src="./img/about/team-7.jpg" alt="Serenity Edwards, Director of Marketing at Createx">
+            <img src="./img/about/team-7.jpg" alt="Serenity Edwards, Director of Marketing at Createx" loading="lazy" decoding="async" width="285" height="340">
             <div class="team-card__overlay">
               <div class="team-card__socials">
                 <a href="#" class="team-card__social team-card__social--li" aria-label="LinkedIn profile of Serenity Edwards"></a>
@@ -301,7 +301,7 @@
 
         <article class="team-card">
           <div class="team-card__media">
-            <img src="./img/about/team-8.jpg" alt="Shawn Edwards, Tech Lead at Createx">
+            <img src="./img/about/team-8.jpg" alt="Shawn Edwards, Tech Lead at Createx" loading="lazy" decoding="async" width="285" height="340">
             <div class="team-card__overlay">
               <div class="team-card__socials">
                 <a href="#" class="team-card__social team-card__social--li" aria-label="LinkedIn profile of Shawn Edwards"></a>
@@ -330,7 +330,7 @@
     <div class="container">
       <h2 class="worldwide__title">We work worldwide</h2>
       <div class="worldwide__map">
-        <img src="./img/about/world-map.svg" alt="World map showing Createx Construction Bureau offices and projects locations">
+        <img src="./img/about/world-map.svg" alt="World map showing Createx Construction Bureau offices and projects locations" loading="lazy" decoding="async">
       </div>
     </div>
   </section>

@@ -159,6 +159,24 @@
             </div>
     </section> 
 </footer>
+
 <script src="./js/main.js" defer></script>
+
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+
+$pagesWithSlider = ['front-page.php', 'page-work.php', 'single-service.php', 'single-project.php'];
+if (in_array($currentPage, $pagesWithSlider, true)): ?>
+    <script src="./js/slider.js" defer></script>
+<?php endif; ?>
+
+<?php if ($currentPage === 'single-project.php'): ?>
+    <script src="./js/project.js" defer></script>
+<?php endif; ?>
+
+<?php if ($currentPage === 'page-news.php'): ?>
+    <script src="./js/news.js" defer></script>
+<?php endif; ?>
+
 </body>
 </html>

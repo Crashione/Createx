@@ -43,7 +43,7 @@
 
 <section class="post__body">
     <div class="container">
-        <img src="img/news/news-img/1.jpg" alt="How to Build Climate Change-Resilient Infrastructure" class="post__body-img" width="1230" height="500">
+        <img src="img/news/news-img/1.jpg" alt="How to Build Climate Change-Resilient Infrastructure" class="post__body-img"  fetchpriority="high" decoding="async" width="1230" height="500">
     </div>
     <div class="post__body-container">
         <strong class="post__body-title">
@@ -100,17 +100,17 @@
             </li>
             <li class="post__share-item">
                 <a href="">
-                    <img src="img/post/social/facebook.svg" alt="Share on Facebook">
+                    <img src="img/post/social/facebook.svg" alt="Share on Facebook" loading="lazy" decoding="async" width="20" height="20">
                 </a>
             </li>
             <li class="post__share-item">
                 <a href="">
-                    <img src="img/post/social/linked-in.svg" alt="Share on LinkedIn">
+                    <img src="img/post/social/linked-in.svg" alt="Share on LinkedIn" loading="lazy" decoding="async" width="20" height="20">
                 </a>
             </li>
             <li class="post__share-item">
                 <a href="">
-                    <img src="img/post/social/twitter.svg" alt="Share on Twitter">
+                    <img src="img/post/social/twitter.svg" alt="Share on Twitter" loading="lazy" decoding="async" width="20" height="20">
                 </a>
             </li>
         </ul>

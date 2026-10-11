@@ -224,8 +224,4 @@
     </div>
 </section>
 
-
-
-
-<script src="./js/news.js" defer></script>
 <?php require 'footer.php' ?>
