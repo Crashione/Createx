@@ -1,9 +1,39 @@
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="theme-color" content="#FF5A30">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>Createx Construction Bureau</title>
+    <meta name="description" content="Createx Construction Bureau — construction and interior design since 2000.">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Ubuntu-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+    <?php if ($currentPage === 'front-page.php'): ?>
+        <link rel="preload" as="image" href="./img/home/hero-1.jpg" fetchpriority="high">
+    <?php endif; ?>
+
+    <?php
+    $heroPreloads = [
+        'page-about.php'      => './img/about/hero.png',
+        'page-careers.php'    => './img/careers/hero.png',
+        'page-news.php'       => './img/news/bg.png',
+        'page-work.php'       => './img/page-work/work.png',
+        'services.php'        => './img/services/services_header.png',
+        'single-service.php'  => './img/services/service.png',
+    ];
+    if (isset($heroPreloads[$currentPage])): ?>
+        <link rel="preload" as="image" href="<?= $heroPreloads[$currentPage] ?>" fetchpriority="high">
+    <?php endif; ?>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>

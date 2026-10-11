@@ -2,7 +2,7 @@
     <div class="container">
         <div class="header__row">
             <div class="header__logo">
-                <img src="img/header/logo-black.svg" alt="Createx Construction Bureau" width="130" height="22">
+                <img src="img/header/logo-black.svg" alt="Createx Construction Bureau" width="130" height="22" fetchpriority="high">
             </div>
 
             <ul class="header__nav" id="header-nav" data-header-nav>

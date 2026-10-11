@@ -3,16 +3,16 @@
   <section class="hero" data-hero>
     <div class="hero__slider">
       <div class="hero__slide is-active">
-        <img src="./img/home/hero-1.jpg" alt="Construction site with tower crane at sunset" class="hero__bg">
+        <img src="./img/home/hero-1.jpg" alt="Construction site with tower crane at sunset" class="hero__bg" fetchpriority="high" decoding="async">
       </div>
       <div class="hero__slide">
-        <img src="./img/home/hero-2.jpg" alt="Workers on a skyscraper construction site" class="hero__bg">
+        <img src="./img/home/hero-2.jpg" alt="Workers on a skyscraper construction site" class="hero__bg" loading="lazy" decoding="async">
       </div>
       <div class="hero__slide">
-        <img src="./img/home/hero-3.jpg" alt="Architectural blueprints and 3D model" class="hero__bg">
+        <img src="./img/home/hero-3.jpg" alt="Architectural blueprints and 3D model" class="hero__bg" loading="lazy" decoding="async">
       </div>
       <div class="hero__slide">
-        <img src="./img/home/hero-4.jpg" alt="Modern interior design project" class="hero__bg">
+        <img src="./img/home/hero-4.jpg" alt="Modern interior design project" class="hero__bg" loading="lazy" decoding="async">
       </div>
     </div>
 
@@ -57,7 +57,8 @@
         <video
           class="home-about__video-el"
           poster="./img/home/about-video.jpg"
-          preload="metadata"
+          preload="none"
+          muted
           playsinline
           data-video-el
         >
@@ -84,19 +85,19 @@
       <div class="core-values__grid">
 
         <div class="core-value">
-          <img src="./img/about/ic-quality.svg" alt="" aria-hidden="true" class="core-value__icon">
+          <img src="./img/about/ic-quality.svg" alt="" aria-hidden="true" class="core-value__icon" loading="lazy" decoding="async" width="48" height="48">
           <h3 class="core-value__title">Quality</h3>
           <p class="core-value__desc">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
         </div>
 
         <div class="core-value">
-          <img src="./img/about/ic-safety.svg" alt="" aria-hidden="true" class="core-value__icon">
+          <img src="./img/about/ic-safety.svg" alt="" aria-hidden="true" class="core-value__icon" loading="lazy" decoding="async" width="48" height="48">
           <h3 class="core-value__title">Safety</h3>
           <p class="core-value__desc">Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
         </div>
 
         <div class="core-value">
-          <img src="./img/about/ic-comfort.svg" alt="" aria-hidden="true" class="core-value__icon">
+          <img src="./img/about/ic-comfort.svg" alt="" aria-hidden="true" class="core-value__icon" loading="lazy" decoding="async" width="48" height="48">
           <h3 class="core-value__title">Comfort</h3>
           <p class="core-value__desc">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
         </div>
@@ -140,22 +141,22 @@
       <div class="home-services__grid">
 
         <a href="single-service.php" class="home-service">
-          <img src="./img/home/service-construction.svg" alt="" aria-hidden="true" class="home-service__icon">
+          <img src="./img/home/service-construction.svg" alt="" aria-hidden="true" class="home-service__icon" loading="lazy" decoding="async" width="52" height="52">
           <span class="home-service__title">Construction</span>
         </a>
 
         <a href="single-service.php" class="home-service">
-          <img src="./img/home/service-project.svg" alt="" aria-hidden="true" class="home-service__icon">
+          <img src="./img/home/service-project.svg" alt="" aria-hidden="true" class="home-service__icon" loading="lazy" decoding="async" width="52" height="52">
           <span class="home-service__title">Project Development</span>
         </a>
 
         <a href="single-service.php" class="home-service">
-          <img src="./img/home/service-interior.svg" alt="" aria-hidden="true" class="home-service__icon">
+          <img src="./img/home/service-interior.svg" alt="" aria-hidden="true" class="home-service__icon" loading="lazy" decoding="async" width="52" height="52">
           <span class="home-service__title">Interior Design</span>
         </a>
 
         <a href="single-service.php" class="home-service">
-          <img src="./img/home/service-repairs.svg" alt="" aria-hidden="true" class="home-service__icon">
+          <img src="./img/home/service-repairs.svg" alt="" aria-hidden="true" class="home-service__icon" loading="lazy" decoding="async" width="52" height="52">
           <span class="home-service__title">Repairs</span>
         </a>
 
@@ -189,7 +190,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/page-work/project-7.jpg" alt="Red Finger Building — business center">
+              <img src="./img/page-work/project-7.jpg" alt="Red Finger Building — business center" loading="lazy" decoding="async" width="390" height="345">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Red Finger Building</h3>
@@ -200,7 +201,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/page-work/project-1.jpg" alt="Cubes Building — business center">
+              <img src="./img/page-work/project-1.jpg" alt="Cubes Building — business center" loading="lazy" decoding="async" width="390" height="345">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Cubes Building</h3>
@@ -211,7 +212,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/page-work/project-6.jpg" alt="The Pencil Building — stores and malls">
+              <img src="./img/page-work/project-6.jpg" alt="The Pencil Building — stores and malls project" loading="lazy" decoding="async" width="390" height="345">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">The Pencil Building</h3>
@@ -222,7 +223,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/page-work/project-2.jpg" alt="Modern Cottage — private house">
+              <img src="./img/page-work/project-2.jpg" alt="Modern Cottage — private house" loading="lazy" decoding="async" width="390" height="345">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Modern Cottage</h3>
@@ -233,7 +234,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/page-work/project-4.jpg" alt="Modern Double Bedroom — apartments and flats">
+              <img src="./img/page-work/project-4.jpg" alt="Modern Double Bedroom — apartments and flats" loading="lazy" decoding="async" width="390" height="345">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Modern Double Bedroom</h3>
@@ -244,7 +245,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/page-work/project-3.jpg" alt="Luxury Beach House — private house">
+              <img src="./img/page-work/project-3.jpg" alt="Luxury Beach House — private house" loading="lazy" decoding="async" width="390" height="345">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Luxury Beach House</h3>
@@ -255,7 +256,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/page-work/project-5.jpg" alt="Kids Bedroom With Decorations — apartments and flats">
+              <img src="./img/page-work/project-5.jpg" alt="Kids Bedroom With Decorations — apartments and flats" loading="lazy" decoding="async" width="390" height="345">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Kids Bedroom With Decorations</h3>
@@ -266,7 +267,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/page-work/project-9.jpg" alt="Brown and Gray Painted House — private house">
+              <img src="./img/page-work/project-9.jpg" alt="Brown and Gray Painted House — private house" loading="lazy" decoding="async" width="390" height="345">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Brown and Gray Painted House</h3>
@@ -277,7 +278,7 @@
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/page-work/project-8.jpg" alt="Scandinavian Style Interior — private house">
+              <img src="./img/page-work/project-8.jpg" alt="Scandinavian Style Interior — private house" loading="lazy" decoding="async" width="390" height="345">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Scandinavian Style Interior</h3>
@@ -301,12 +302,12 @@
       <h2 class="partners__title">Supported by 12+ partners</h2>
 
       <div class="partners__grid">
-        <img src="./img/single-service/partner-indepth.svg" alt="InDepth Consulting logo">
-        <img src="./img/single-service/partner-higher.svg" alt="Higher Fit logo">
-        <img src="./img/single-service/partner-sentinal.svg" alt="Sentinal Consulting logo">
-        <img src="./img/single-service/partner-happy.svg" alt="Happy Home logo">
-        <img src="./img/single-service/partner-forsale.svg" alt="For Sale logo">
-        <img src="./img/single-service/partner-sunset.svg" alt="Sunset Realty logo">
+        <img src="./img/single-service/partner-indepth.svg" alt="InDepth Consulting logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-higher.svg" alt="Higher Fit logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-sentinal.svg" alt="Sentinal Consulting logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-happy.svg" alt="Happy Home logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-forsale.svg" alt="For Sale logo" loading="lazy" decoding="async" width="120" height="64">
+        <img src="./img/single-service/partner-sunset.svg" alt="Sunset Realty logo" loading="lazy" decoding="async" width="120" height="64">
       </div>
     </div>
   </section>
@@ -320,7 +321,7 @@
         <div class="testimonial-slider" data-testimonial-slider>
           <div class="testimonial-slider__track">
             <blockquote class="testimonial">
-              <img src="./img/page-work/avatar-1.jpg" alt="Shawn Edwards, client of Createx" class="testimonial__avatar">
+              <img src="./img/page-work/avatar-1.jpg" alt="Shawn Edwards, client of Createx" class="testimonial__avatar" loading="lazy" decoding="async" width="72" height="72">
               <p class="testimonial__text">
                 Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum
                 eiusmod enim. Consectetur magna cillum consequat minim laboris
@@ -333,7 +334,7 @@
             </blockquote>
 
             <blockquote class="testimonial">
-              <img src="./img/page-work/avatar-2.jpg" alt="John Doe, client of Createx" class="testimonial__avatar">
+              <img src="./img/page-work/avatar-2.jpg" alt="John Doe, client of Createx" class="testimonial__avatar" loading="lazy" decoding="async" width="72" height="72">
               <p class="testimonial__text">
                 Duis aute irure dolor in reprehenderit in voluptate velit
                 esse cillum dolore eu fugiat nulla pariatur.
@@ -357,7 +358,7 @@
       </div>
 
       <div class="testimonials__media">
-        <img src="./img/page-work/testimonial-photo.jpg" alt="Createx team members shaking hands with a client">
+        <img src="./img/page-work/testimonial-photo.jpg" alt="Createx team members shaking hands with a client" loading="lazy" decoding="async">
       </div>
 
     </div>
@@ -453,7 +454,7 @@
 
         <article class="home-news__large">
           <div class="home-news__img-wrap">
-            <img src="./img/news/news-img/1.jpg" alt="How to Build Climate Change-Resilient Infrastructure">
+            <img src="./img/news/news-img/1.jpg" alt="How to Build Climate Change-Resilient Infrastructure" loading="lazy" decoding="async">
           </div>
           <div class="home-news__body">
             <h3 class="home-news__title">How to Build Climate Change-Resilient Infrastructure</h3>
@@ -476,7 +477,7 @@
 
         <article class="home-news__small">
           <div class="home-news__img-wrap">
-            <img src="./img/news/news-img/2.jpg" alt="How Construction Can Help Itself">
+            <img src="./img/news/news-img/2.jpg" alt="How Construction Can Help Itself" loading="lazy" decoding="async">
           </div>
           <div class="home-news__body">
             <h3 class="home-news__title">How Construction Can Help Itself</h3>
@@ -495,7 +496,7 @@
 
         <article class="home-news__small">
           <div class="home-news__img-wrap">
-            <img src="./img/news/news-img/6.jpg" alt="Types of Flooring Materials">
+            <img src="./img/news/news-img/6.jpg" alt="Types of Flooring Materials" loading="lazy" decoding="async">
           </div>
           <div class="home-news__body">
             <h3 class="home-news__title">Types of Flooring Materials</h3>
@@ -521,5 +522,4 @@
     </div>
   </section>
 
-<script src="./js/slider.js" defer></script>
 <?php require 'footer.php'; ?>

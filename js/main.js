@@ -36,21 +36,64 @@ document.querySelectorAll('.work-tabs__list').forEach((tabs) => {
   const grid = document.querySelector('.work-grid__list');
   if (!grid) return;
 
-  const cards = grid.querySelectorAll('.project-card');
-  
+  const cards = Array.from(grid.querySelectorAll('.project-card'));
+  const loadBtn = document.querySelector('.work-load-more');
+  const emptyMsg = document.querySelector('.work-grid__empty');
+
+  const ITEMS_PER_PAGE = 9;
+
+  let currentFilter = 'all';
+  let visibleCount = ITEMS_PER_PAGE;
+
+  const render = () => {
+    const filtered = cards.filter(
+      (c) => currentFilter === 'all' || c.dataset.category === currentFilter
+    );
+
+    cards.forEach((c) => {
+      if (!filtered.includes(c)) c.style.display = 'none';
+    });
+
+    filtered.forEach((c, i) => {
+      c.style.display = i < visibleCount ? '' : 'none';
+    });
+
+    if (!loadBtn || !emptyMsg) return;
+
+    if (filtered.length === 0) {
+      loadBtn.hidden = true;
+      emptyMsg.textContent = 'В этой категории пока нет проектов.';
+      emptyMsg.hidden = false;
+    } else if (filtered.length <= visibleCount) {
+      loadBtn.hidden = true;
+      emptyMsg.textContent = 'Больше проектов нет.';
+      emptyMsg.hidden = false;
+    } else {
+      loadBtn.hidden = false;
+      emptyMsg.hidden = true;
+    }
+  };
+
   buttons.forEach((btn) => {
     btn.addEventListener('click', () => {
-      const filter = btn.dataset.filter;
+      currentFilter = btn.dataset.filter;
+      visibleCount = ITEMS_PER_PAGE;
 
       buttons.forEach((b) => b.classList.remove('work-tab--active'));
       btn.classList.add('work-tab--active');
 
-      cards.forEach((card) => {
-        const match = filter === 'all' || card.dataset.category === filter;
-        card.style.display = match ? '' : 'none';
-      });
+      render();
     });
   });
+
+  if (loadBtn) {
+    loadBtn.addEventListener('click', () => {
+      visibleCount += ITEMS_PER_PAGE;
+      render();
+    });
+  }
+
+  render();
 });
 
 
@@ -413,6 +456,6 @@ document.querySelectorAll('[data-history]').forEach((root) => {
   });
 
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 768) closeMenu();
+    if (window.innerWidth > 1024) closeMenu();
   });
 })();

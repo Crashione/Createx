@@ -256,6 +256,4 @@
   </div>
 </section>
 
-<script src="./js/project.js" defer></script>
-<script src="./js/slider.js" defer></script>
 <?php require 'footer.php'; ?>

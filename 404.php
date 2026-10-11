@@ -15,7 +15,7 @@
       </div>
 
       <div class="error-404__media">
-        <img src="./img/404/404.webp" alt="Page not found — Createx Construction Bureau" class="error-404__img">
+        <img src="./img/404/404.webp" alt="Page not found — Createx Construction Bureau" class="error-404__img" fetchpriority="high" decoding="async" width="560" height="420">
       </div>
 
     </div>
