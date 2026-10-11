@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     btnForm.disabled = !checkbox.checked;
   });
 });
-// page-about.php
+// page-about
 document.querySelectorAll('[data-history]').forEach((root) => {
   const dates = root.querySelectorAll('.history__date');
   const img = root.querySelector('.history__img');
@@ -140,7 +140,7 @@ document.querySelectorAll('[data-history]').forEach((root) => {
     if (isAnimating) return;
     if (i < 0) i = slides.length - 1;
     if (i >= slides.length) i = 0;
-    if (i === current && img.src) return;
+    if (i === current) return;
 
     const slide = slides[i];
     if (!slide) return;
@@ -247,7 +247,7 @@ document.querySelectorAll('[data-history]').forEach((root) => {
   });
 })();
 
-// главная //
+// главная
 (function () {
   const hero = document.querySelector('[data-hero]');
   if (!hero) return;
@@ -285,7 +285,7 @@ document.querySelectorAll('[data-history]').forEach((root) => {
 })();
 
 
-// анимация счётчиков и кругов//
+// анимация счётчиков и кругов
 (function () {
   const facts = document.querySelectorAll('[data-fact]');
   if (!facts.length) return;

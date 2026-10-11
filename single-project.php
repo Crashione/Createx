@@ -15,7 +15,7 @@
                     <img src="img/single-service/arrow-next.svg" alt="Modern Cottage">
                 </button>
                 <div class="project__main-slide main__slide--active">
-                    <img src="img/projects/modern-cottage/project1.jpg" alt="Modern Cottage" class="project__main-img" height="500px">
+                    <img src="img/projects/modern-cottage/project1.jpg" alt="Modern Cottage" class="project__main-img" height="500">
                 </div>
                 <div class="project__main-slide">
                     <img src="img/projects/modern-cottage/project2.jpg" alt="Modern Cottage" class="project__main-img">

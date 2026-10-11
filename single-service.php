@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="page-hero__media">
-            <img src="/img/services/service.png" alt="Interior design services — Createx Construction Bureau" class="page-hero__img">
+            <img src="./img/services/service.png" alt="Interior design services — Createx Construction Bureau" class="page-hero__img">
     </div>
   </section>
   <section class="offer">
