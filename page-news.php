@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="page-hero__media">
-            <img src="/img/news/bg.png" alt="Construction services offered by Createx Construction Bureau" class="page-hero__img">
+            <img src="./img/news/bg.png" alt="Construction services offered by Createx Construction Bureau" class="page-hero__img">
         </div>
 </section>
 
@@ -33,7 +33,7 @@
         <div class="categories__container">
             <div class="news__container" data-news-category="industry">
                 <div class="news__img-container">
-                    <img src="img/news/news-img/1.jpg" alt="" class="new__img" width="600" height="306">
+                    <img src="img/news/news-img/1.jpg" alt="How to Build Climate Change-Resilient Infrastructure" class="news__img" width="600" height="306">
                 </div>
                 <div class="news__body">
                     <div class="news__body-title">
@@ -63,7 +63,7 @@
             </div>
             <div class="news__container" data-news-category="innovation">
                 <div class="news__img-container">
-                    <img src="img/news/news-img/2.jpg" alt="" class="new__img"  width="600" height="306">
+                    <img src="img/news/news-img/2.jpg" alt="How Construction Can Help Itself" class="news__img"  width="600" height="306">
                 </div>
                 <div class="news__body">
                     <div class="news__body-title">
@@ -93,7 +93,7 @@
             </div>
             <div class="news__container" data-news-category="expert">
                 <div class="news__img-container">
-                    <img src="img/news/news-img/3.jpg" alt="" class="new__img"  width="600" height="306">
+                    <img src="img/news/news-img/3.jpg" alt="The Difference Between a Digger and an Excavator" class="news__img"  width="600" height="306">
                 </div>
                 <div class="news__body">
                     <div class="news__body-title">
@@ -123,7 +123,7 @@
             </div>
             <div class="news__container" data-news-category="expert">
                 <div class="news__img-container">
-                    <img src="img/news/news-img/4.jpg" alt="" class="new__img"  width="600" height="306">
+                    <img src="img/news/news-img/4.jpg" alt="Building Construction Hand Tools" class="news__img"  width="600" height="306">
                 </div>
                 <div class="news__body">
                     <div class="news__body-title">
@@ -153,7 +153,7 @@
             </div>
             <div class="news__container" data-news-category="industry">
                 <div class="news__img-container">
-                    <img src="img/news/news-img/5.jpg" alt="" class="new__img"  width="600" height="306">
+                    <img src="img/news/news-img/5.jpg" alt="Top 10 Construction Trends" class="news__img"  width="600" height="306">
                 </div>
                 <div class="news__body">
                     <div class="news__body-title">
@@ -183,7 +183,7 @@
             </div>
             <div class="news__container" data-news-category="company">
                 <div class="news__img-container">
-                    <img src="img/news/news-img/6.jpg" alt="" class="new__img"  width="600" height="306">
+                    <img src="img/news/news-img/6.jpg" alt="Types of Flooring Materials" class="news__img"  width="600" height="306">
                 </div>
                 <div class="news__body">
                     <div class="news__body-title">
@@ -227,5 +227,5 @@
 
 
 
-
+<script src="./js/news.js" defer></script>
 <?php require 'footer.php' ?>

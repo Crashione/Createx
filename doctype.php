@@ -8,6 +8,6 @@
 </head>
 <body>
 <?php require 'header.php'; ?>
-<main class="service-page">
+<main>
 
     

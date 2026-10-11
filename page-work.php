@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="page-hero__media">
-            <img src="/img/page-work/work.png" alt="Portfolio of Createx Construction Bureau projects" class="page-hero__img">
+            <img src="./img/page-work/work.png" alt="Portfolio of Createx Construction Bureau projects" class="page-hero__img">
     </div>
   </section>
 
@@ -53,7 +53,7 @@
 
         <article class="project-card" data-category="construction">
           <div class="project-card__media">
-            <img src="./img/page-work/project-1.jpg" alt="Red Finger Building — business center project">
+            <img src="./img/page-work/project-7.jpg" alt="Red Finger Building — business center project">
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">Red Finger Building</h3>
@@ -64,7 +64,7 @@
 
         <article class="project-card" data-category="project">
           <div class="project-card__media">
-            <img src="./img/page-work/project-2.jpg" alt="Cubes Building — business center project">
+            <img src="./img/page-work/project-1.jpg" alt="Cubes Building — business center project">
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">Cubes Building</h3>
@@ -75,7 +75,7 @@
 
         <article class="project-card" data-category="interior">
           <div class="project-card__media">
-            <img src="./img/page-work/project-3.jpg" alt="The Pencil Building — stores and malls project">
+            <img src="./img/page-work/project-6.jpg" alt="The Pencil Building — stores and malls project">
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">The Pencil Building</h3>
@@ -86,7 +86,7 @@
 
         <article class="project-card" data-category="repairs">
           <div class="project-card__media">
-            <img src="./img/page-work/project-4.jpg" alt="Modern Cottage — private house project">
+            <img src="./img/page-work/project-2.jpg" alt="Modern Cottage — private house project">
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">Modern Cottage</h3>
@@ -97,7 +97,7 @@
 
         <article class="project-card" data-category="interior">
           <div class="project-card__media">
-            <img src="./img/page-work/project-5.jpg" alt="Modern Double Bedroom — apartments and flats project">
+            <img src="./img/page-work/project-4.jpg" alt="Modern Double Bedroom — apartments and flats project">
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">Modern Double Bedroom</h3>
@@ -108,7 +108,7 @@
 
         <article class="project-card" data-category="construction">
           <div class="project-card__media">
-            <img src="./img/page-work/project-6.jpg" alt="Luxury Beach House — private house project">
+            <img src="./img/page-work/project-3.jpg" alt="Luxury Beach House — private house project">
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">Luxury Beach House</h3>
@@ -119,7 +119,7 @@
 
         <article class="project-card" data-category="project">
           <div class="project-card__media">
-            <img src="./img/page-work/project-7.jpg" alt="Kids Bedroom With Decorations — apartments and flats project">
+            <img src="./img/page-work/project-5.jpg" alt="Kids Bedroom With Decorations — apartments and flats project">
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">Kids Bedroom With Decorations</h3>
@@ -130,7 +130,7 @@
 
         <article class="project-card" data-category="repairs">
           <div class="project-card__media">
-            <img src="./img/page-work/project-8.jpg" alt="Brown and Gray Painted House — private house project">
+            <img src="./img/page-work/project-9.jpg" alt="Brown and Gray Painted House — private house project">
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">Brown and Gray Painted House</h3>
@@ -141,7 +141,7 @@
 
         <article class="project-card" data-category="interior">
           <div class="project-card__media">
-            <img src="./img/page-work/project-9.jpg" alt="Scandinavian Style Interior — private house project">
+            <img src="./img/page-work/project-8.jpg" alt="Scandinavian Style Interior — private house project">
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">Scandinavian Style Interior</h3>
