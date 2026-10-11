@@ -1,0 +1,261 @@
+<?php require 'doctype.php'; ?>
+
+<section class="project">
+    <div class="container">
+        <div class="page-hero__path">Homepage/Work/Modern Cottage</div>
+        <div class="project__title">
+            Modern Cottage
+        </div>
+        <div class="project__slider">
+            <div class="project__main">
+                <button class="project__btn project__btn--left">
+                    <img src="img/single-service/arrow-prev.svg" alt="Modern Cottage">
+                </button>
+                <button class="project__btn project__btn--right">
+                    <img src="img/single-service/arrow-next.svg" alt="Modern Cottage">
+                </button>
+                <div class="project__main-slide main__slide--active">
+                    <img src="img/projects/modern-cottage/project1.jpg" alt="Modern Cottage" class="project__main-img" height="500px">
+                </div>
+                <div class="project__main-slide">
+                    <img src="img/projects/modern-cottage/project2.jpg" alt="Modern Cottage" class="project__main-img">
+                </div>
+                <div class="project__main-slide">
+                    <img src="img/projects/modern-cottage/project3.jpg" alt="Modern Cottage" class="project__main-img">
+                </div>
+                <div class="project__main-slide">
+                    <img src="img/projects/modern-cottage/project4.jpg" alt="Modern Cottage" class="project__main-img">
+                </div>
+                <div class="project__main-slide">
+                    <img src="img/projects/modern-cottage/project5.jpg" alt="Modern Cottage" class="project__main-img">
+                </div>
+                <div class="project__main-slide">
+                    <img src="img/projects/modern-cottage/project6.jpg" alt="Modern Cottage" class="project__main-img">
+                </div>
+            </div>
+            <div class="project__miniature">
+                <div class="project__miniature-slide miniature__slide--active">
+                    <img src="img/projects/modern-cottage/project1.jpg" alt="" class="project__miniature-img">
+                </div>
+                <div class="project__miniature-slide">
+                    <img src="img/projects/modern-cottage/project2.jpg" alt="" class="project__miniature-img">
+                </div>
+                <div class="project__miniature-slide">
+                    <img src="img/projects/modern-cottage/project3.jpg" alt="" class="project__miniature-img">
+                </div>
+                <div class="project__miniature-slide">
+                    <img src="img/projects/modern-cottage/project4.jpg" alt="" class="project__miniature-img">
+                </div>
+                <div class="project__miniature-slide">
+                    <img src="img/projects/modern-cottage/project5.jpg" alt="" class="project__miniature-img">
+                </div>
+                <div class="project__miniature-slide">
+                    <img src="img/projects/modern-cottage/project6.jpg" alt="" class="project__miniature-img">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+
+<section class="project__goal">
+    <div class="container">
+        <div class="project__goal-container">
+            <div class="project__goal-left">
+                <div class="project__goal-title">
+                    Project goal
+                </div>
+                <div class="project__goal-desc">
+                    Build a private house 840 sq. feet with a large 
+                    living room, three bedrooms, two bathrooms, a terrace, 
+                    a pool and a garage for two cars.
+                </div>
+                <div class="project__goal-desc">
+                Modern design and care for each family member 
+                to feel as comfortable as possible in the new home.
+                </div>
+            </div>
+            <div class="project__goal-right">
+                <div class="project__goal-row">
+                    <div class="project__goal-label">LOCATION</div>
+                    <div class="project__goal-value">2464 Royal Ln. Mesa, New Jersey</div>
+                </div>
+                <div class="project__goal-row">
+                    <div class="project__goal-label">CLIENT</div>
+                    <div class="project__goal-value">Darlene Robertson</div>
+                </div>
+                <div class="project__goal-row">
+                    <div class="project__goal-label">ARCHITECT</div>
+                    <div class="project__goal-value">HIK Architecture</div>
+                </div>
+                <div class="project__goal-row">
+                    <div class="project__goal-label">SIZE</div>
+                    <div class="project__goal-value">840 sq. feet</div>
+                </div>
+                <div class="project__goal-row">
+                    <div class="project__goal-label">VALUE</div>
+                    <div class="project__goal-value">$2 million</div>
+                </div>
+                <div class="project__goal-row">
+                    <div class="project__goal-label">COMPLETED</div>
+                    <div class="project__goal-value">May 2020</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="decisions">
+    <div class="container">
+        <div class="decisions__container">
+            <div class="decisions__left">
+                <img src="./img/projects/decisions.jpg" alt="" class="decisions__img">
+            </div>
+            <div class="decisions__right">
+                <div class="decisions__title">
+                    Constructive decisions
+                </div>
+                <ul class="decisions__list">
+                    <li class="decisions__item">Vitae ultrices ornare eu sed in est quisque duis id.</li>
+                    <li class="decisions__item">A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+                    <li class="decisions__item">Mauris odio pellentesque commodo, diam.</li>
+                    <li class="decisions__item">Fermentum vestibulum est fermentum, egestas gravida scelerisque quis.</li>
+                    <li class="decisions__item">At pharetra libero blandit risus, fringilla sed commodo diam.</li>
+                    <li class="decisions__item">Integer ultricies viverra ut enim viverra ut.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio similar-projects">
+  <div class="container">
+
+    <div class="portfolio__head">
+      <h2 class="portfolio__title">Similar projects</h2>
+      <div class="slider-nav">
+        <button type="button" class="slider-nav__btn slider-nav__btn--prev" aria-label="Previous project">
+          <img src="./img/single-service/arrow-prev.svg" alt="" aria-hidden="true">
+        </button>
+        <button type="button" class="slider-nav__btn slider-nav__btn--next" aria-label="Next project">
+          <img src="./img/single-service/arrow-next.svg" alt="" aria-hidden="true">
+        </button>
+      </div>
+    </div>
+
+    <div class="portfolio__slider">
+      <div class="portfolio__track">
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="./img/page-work/project-3.jpg" alt="Luxury Beach House — private house">
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Luxury Beach House</h3>
+            <p class="project-card__category">Private Houses</p>
+            <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="./img/page-work/project-9.jpg" alt="Brown and Gray Painted House — private house">
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Brown and Gray Painted House</h3>
+            <p class="project-card__category">Private Houses</p>
+            <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="./img/page-work/project-8.jpg" alt="Scandinavian Style Interior — private house">
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Scandinavian Style Interior</h3>
+            <p class="project-card__category">Private Houses</p>
+            <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="./img/page-work/project-7.jpg" alt="Red Finger Building — business center">
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Red Finger Building</h3>
+            <p class="project-card__category">Business Centers</p>
+            <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="./img/page-work/project-1.jpg" alt="Cubes Building — business center">
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Cubes Building</h3>
+            <p class="project-card__category">Business Centers</p>
+            <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="./img/page-work/project-6.jpg" alt="The Pencil Building — stores and malls">
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">The Pencil Building</h3>
+            <p class="project-card__category">Stores &amp; Malls</p>
+            <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="./img/page-work/project-2.jpg" alt="Modern Cottage — private house">
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Modern Cottage</h3>
+            <p class="project-card__category">Private Houses</p>
+            <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="./img/page-work/project-4.jpg" alt="Modern Double Bedroom — apartments and flats">
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Modern Double Bedroom</h3>
+            <p class="project-card__category">Apartments &amp; Flats</p>
+            <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="./img/page-work/project-5.jpg" alt="Kids Bedroom With Decorations — apartments and flats">
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Kids Bedroom With Decorations</h3>
+            <p class="project-card__category">Apartments &amp; Flats</p>
+            <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="portfolio__cta">
+      <p class="portfolio__cta-text">Explore all our works</p>
+      <a href="page-work.php" class="btn__filled btn__lg">View portfolio</a>
+    </div>
+
+  </div>
+</section>
+
+<script src="./js/project.js" defer></script>
+<script src="./js/slider.js" defer></script>
+<?php require 'footer.php'; ?>

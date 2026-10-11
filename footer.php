@@ -1,6 +1,7 @@
 </main>
 
 <footer>
+    <?php if (empty($hide_footer_top)): ?>
     <section class="footer__top">
         <div class="container">
             <div class="footer__block">
@@ -67,11 +68,12 @@
                             I agree to receive communications from Createx Construction Bureau.
                         </div>
                     </div>
-                     <button id="btn-form" type="submit" class="btn__filled" id="btn-form" disabled>send request</button>
+                     <button id="btn-form" type="submit" class="btn__filled" disabled>send request</button>
                 </form>
             </div>
         </div>
     </section>
+    <?php endif; ?>
     <section class="footer__bottom">
             <div class="container">
                 <div class="footer__bottom--block">
@@ -79,15 +81,15 @@
                        <div class="footer__left--row">
                             <div class="footer__bottom--logo">
                                 <a href="#">
-                                    <img src="img/footer/logo-white.svg" alt="">
+                                    <img src="img/footer/logo-white.svg" alt="Createx Construction Bureau">
                                 </a>
                             </div>
                             <ul class="footer__bottom--socials">
-                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/1.svg" alt=""></a></li>
-                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/2.svg" alt=""></a></li>
-                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/3.svg" alt=""></a></li>
-                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/4.svg" alt=""></a></li>
-                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/5.svg" alt=""></a></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/1.svg" alt="WhatsApp"></a></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/2.svg" alt="Messenger"></a></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/3.svg" alt="Facebook"></a></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/4.svg" alt="Twitter"></a></li>
+                                <li class="footer__bottom--social"><a href="#"><img src="img/footer/socials/5.svg" alt="YouTube"></a></li>
                             </ul>
                        </div>
                         <div class="footer__bottom--desc">
@@ -157,8 +159,5 @@
             </div>
     </section> 
 </footer>
-<script src="./js/news-pagination.js"></script>
 <script src="./js/main.js" defer></script>
-<script src="./js/project-slider.js" defer></script>
-<script src="./js/slider.js" defer></script>
 </body>
