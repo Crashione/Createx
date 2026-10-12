@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="page-hero__media">
-            <img src="/img/services/service.png" alt="Interior design services — Createx Construction Bureau" class="page-hero__img">
+            <img src="./img/services/service.png" alt="Interior design services — Createx Construction Bureau" class="page-hero__img">
     </div>
   </section>
   <section class="offer">
@@ -134,38 +134,104 @@
       </div>
 
       <div class="portfolio__slider">
-        <div class="portfolio__track">
+          <div class="portfolio__track">
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/single-service/project-1.jpg" alt="Kids Bedroom With Decorations project">
+              <img src="./img/page-work/project-5.jpg" alt="Kids Bedroom With Decorations — apartments and flats">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Kids Bedroom With Decorations</h3>
               <p class="project-card__category">Apartments &amp; Flats</p>
-              <a href="#" class="btn__solid btn__md project-card__btn">View Project</a>
+              <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/single-service/project-2.jpg" alt="Modern Double Bedroom project">
+              <img src="./img/page-work/project-4.jpg" alt="Modern Double Bedroom — apartments and flats">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Modern Double Bedroom</h3>
               <p class="project-card__category">Apartments &amp; Flats</p>
-              <a href="#" class="btn__solid btn__md project-card__btn">View Project</a>
+              <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-card__media">
-              <img src="./img/single-service/project-3.jpg" alt="Scandinavian Style Interior project">
+              <img src="./img/page-work/project-8.jpg" alt="Scandinavian Style Interior — private house">
             </div>
             <div class="project-card__body">
               <h3 class="project-card__title">Scandinavian Style Interior</h3>
               <p class="project-card__category">Private Houses</p>
-              <a href="#" class="btn__solid btn__md project-card__btn">View Project</a>
+              <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./img/page-work/project-7.jpg" alt="Red Finger Building — business center">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Red Finger Building</h3>
+              <p class="project-card__category">Business Centers</p>
+              <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./img/page-work/project-1.jpg" alt="Cubes Building — business center">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Cubes Building</h3>
+              <p class="project-card__category">Business Centers</p>
+              <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./img/page-work/project-6.jpg" alt="The Pencil Building — stores and malls">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">The Pencil Building</h3>
+              <p class="project-card__category">Stores &amp; Malls</p>
+              <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./img/page-work/project-2.jpg" alt="Modern Cottage — private house">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Modern Cottage</h3>
+              <p class="project-card__category">Private Houses</p>
+              <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./img/page-work/project-3.jpg" alt="Luxury Beach House — private house">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Luxury Beach House</h3>
+              <p class="project-card__category">Private Houses</p>
+              <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img src="./img/page-work/project-9.jpg" alt="Brown and Gray Painted House — private house">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Brown and Gray Painted House</h3>
+              <p class="project-card__category">Private Houses</p>
+              <a href="single-project.php" class="btn__solid btn__md project-card__btn">View Project</a>
             </div>
           </article>
 
@@ -174,7 +240,7 @@
 
       <div class="portfolio__cta">
         <p class="portfolio__cta-text">Explore all our works</p>
-        <a href="#" class="btn__filled btn__lg">View portfolio</a>
+        <a href="page-work.php" class="btn__filled btn__lg">View portfolio</a>
       </div>
 
     </div>
@@ -288,6 +354,5 @@
       </div>
     </div>
   </section>
-
 
 <?php require 'footer.php'; ?>

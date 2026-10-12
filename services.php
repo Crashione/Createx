@@ -15,17 +15,17 @@
         </div>
     </div>
     <div class="page-hero__media">
-            <img src="/img/services/services_header.png" alt="Construction services offered by Createx Construction Bureau" class="page-hero__img">
+            <img src="./img/services/services_header.png" alt="Construction services offered by Createx Construction Bureau" class="page-hero__img" fetchpriority="high" decoding="async">
         </div>
 </section>
 
 <section class="section our-services">
-    <img src="/img/services/bg-image.png" alt="" class="service-card__bg1" aria-hidden="true">
-    <img src="/img/services/bg-image.png" alt="" class="service-card__bg2" aria-hidden="true">
+    <img src="./img/services/bg-image.png" alt="" class="service-card__bg1" aria-hidden="true" loading="lazy" decoding="async">
+    <img src="./img/services/bg-image.png" alt="" class="service-card__bg2" aria-hidden="true" loading="lazy" decoding="async">
     <div class="container">
         <div class="service-card">
             <div class="service-card__img">
-                <img src="/img/services/1.jpg" alt="Construction site with cranes and workers">
+                <img src="./img/services/1.jpg" alt="Construction site with cranes and workers" loading="lazy" decoding="async" width="575" height="350">
             </div>
             <div class="service-card__content">
                 <div class="service-card__title">
@@ -46,7 +46,7 @@
         </div>
         <div class="service-card">
             <div class="service-card__img">
-                <img src="/img/services/2.jpg" alt="Architectural blueprints and design documents">
+                <img src="./img/services/2.jpg" alt="Architectural blueprints and design documents" loading="lazy" decoding="async" width="575" height="350">
             </div>
             <div class="service-card__content">
                 <div class="service-card__title">
@@ -66,7 +66,7 @@
         </div>
         <div class="service-card">
             <div class="service-card__img">
-                <img src="/img/services/3.jpg" alt="Modern interior design of a living room">
+                <img src="./img/services/3.jpg" alt="Modern interior design of a living room" loading="lazy" decoding="async" width="575" height="350">
             </div>
             <div class="service-card__content">
                 <div class="service-card__title">
@@ -89,7 +89,7 @@
         </div>
         <div class="service-card">
             <div class="service-card__img">
-                <img src="/img/services/4.jpg" alt="Repair tools and ladder on a construction site">
+                <img src="./img/services/4.jpg" alt="Repair tools and ladder on a construction site" loading="lazy" decoding="async" width="575" height="350">
             </div>
             <div class="service-card__content">
                 <div class="service-card__title">

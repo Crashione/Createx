@@ -10,11 +10,11 @@
                     Industry News 
                 </div>
                 <div class="post__header-date">|
-                    <img src="img/post/clock.svg" alt="">
+                    <img src="img/post/clock.svg" alt="" aria-hidden="true">
                     June 24, 2020 |
                 </div>
                 <div class="post__header-comments">
-                    <img src="img/post/comments.svg" alt="">
+                    <img src="img/post/comments.svg" alt="" aria-hidden="true">
                     4 comments
                 </div>
             </div>
@@ -43,7 +43,7 @@
 
 <section class="post__body">
     <div class="container">
-        <img src="img/news/news-img/1.jpg" alt="" class="post__body-img" width="1230px" height="500px">
+        <img src="img/news/news-img/1.jpg" alt="How to Build Climate Change-Resilient Infrastructure" class="post__body-img"  fetchpriority="high" decoding="async" width="1230" height="500">
     </div>
     <div class="post__body-container">
         <strong class="post__body-title">
@@ -100,17 +100,17 @@
             </li>
             <li class="post__share-item">
                 <a href="">
-                    <img src="img/post/social/facebook.svg" alt="">
+                    <img src="img/post/social/facebook.svg" alt="Share on Facebook" loading="lazy" decoding="async" width="20" height="20">
                 </a>
             </li>
             <li class="post__share-item">
                 <a href="">
-                    <img src="img/post/social/linked-in.svg" alt="">
+                    <img src="img/post/social/linked-in.svg" alt="Share on LinkedIn" loading="lazy" decoding="async" width="20" height="20">
                 </a>
             </li>
             <li class="post__share-item">
                 <a href="">
-                    <img src="img/post/social/twitter.svg" alt="">
+                    <img src="img/post/social/twitter.svg" alt="Share on Twitter" loading="lazy" decoding="async" width="20" height="20">
                 </a>
             </li>
         </ul>

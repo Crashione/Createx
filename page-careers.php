@@ -181,7 +181,7 @@
 
         <div class="form-field">
           <label for="cv-location" class="form-field__label">Location*</label>
-          <select id="cv-location" name="location" required class="form-field__input form-field__select" defaultValue="">
+          <select id="cv-location" name="location" required class="form-field__input form-field__select">
             <option value="" disabled selected>Choose your location</option>
             <option value="new-york">New York</option>
             <option value="san-francisco">San Francisco</option>
