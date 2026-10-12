@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         filteredNews.forEach(function(news, index) {
             if (index >= startIndex && index < endIndex) {
-                news.style.display = 'grid'; 
+                news.style.display = ''; 
             } else {
                 news.style.display = 'none';
             }
