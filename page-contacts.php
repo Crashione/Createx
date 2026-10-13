@@ -1,6 +1,6 @@
 <?php require 'doctype.php'; ?>
 
-<section class="section service page-hero page-hero--contacts">
+<section class="section service page-hero">
     <div class="container">
         <div class="page-hero__content">
             <div class="page-hero__path">Homepage / Contacts</div>

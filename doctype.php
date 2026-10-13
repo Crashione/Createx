@@ -36,7 +36,21 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<?php
+$pagesWithHeroBg = [
+    'page-about.php',
+    'page-careers.php',
+    'page-news.php',
+    'page-work.php',
+    'page-contacts.php',
+    'page-newsPost.php',
+    'services.php',
+    'single-service.php',
+];
+$bodyClass = in_array($currentPage, $pagesWithHeroBg, true) ? ' class="has-hero-bg"' : '';
+?>
+<body<?= $bodyClass ?>>
 <?php require 'header.php'; ?>
 <main>
 
