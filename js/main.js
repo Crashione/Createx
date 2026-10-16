@@ -1,5 +1,5 @@
 // аккордеон
-  document.querySelectorAll('[data-accordion]').forEach((group) => {
+document.querySelectorAll('[data-accordion]').forEach((group) => {
   const items = group.querySelectorAll('.accordion__item');
 
   items.forEach((item) => {
@@ -30,7 +30,7 @@
   if (opened) opened.style.maxHeight = opened.scrollHeight + 'px';
 });
 
-//Фильтр проектов
+// Фильтр проектов + Load more
 document.querySelectorAll('.work-tabs__list').forEach((tabs) => {
   const buttons = tabs.querySelectorAll('.work-tab');
   const grid = document.querySelector('.work-grid__list');
@@ -96,7 +96,6 @@ document.querySelectorAll('.work-tabs__list').forEach((tabs) => {
   render();
 });
 
-
 // Слайдер отзывов
 document.querySelectorAll('[data-testimonial-slider]').forEach((slider) => {
   const slides = slider.querySelectorAll('.testimonial');
@@ -126,17 +125,32 @@ document.querySelectorAll('[data-testimonial-slider]').forEach((slider) => {
   }
 });
 
-//футер форма 
-document.addEventListener('DOMContentLoaded', function() {
-  const checkbox = document.getElementById('checkbox');
-  const btnForm = document.getElementById('btn-form');
+// Чекбокс согласия
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('[data-agree-toggle]').forEach((checkbox) => {
+    const btn = document.getElementById(checkbox.dataset.agreeToggle);
+    if (!btn) return;
 
-  if (!checkbox || !btnForm) return;
-  checkbox.addEventListener('change', function () {
-    btnForm.disabled = !checkbox.checked;
+    const sync = () => { btn.disabled = !checkbox.checked; };
+    checkbox.addEventListener('change', sync);
+    sync();
   });
 });
-// page-about
+
+// Футер
+document.addEventListener('DOMContentLoaded', function () {
+  const checkbox = document.getElementById('checkbox');
+  const btnForm = document.getElementById('btn-form');
+  if (!checkbox || !btnForm) return;
+
+  if (checkbox.hasAttribute('data-agree-toggle')) return;
+
+  const sync = () => { btnForm.disabled = !checkbox.checked; };
+  checkbox.addEventListener('change', sync);
+  sync();
+});
+
+// page-about.php
 document.querySelectorAll('[data-history]').forEach((root) => {
   const dates = root.querySelectorAll('.history__date');
   const img = root.querySelector('.history__img');
@@ -183,7 +197,7 @@ document.querySelectorAll('[data-history]').forEach((root) => {
     if (isAnimating) return;
     if (i < 0) i = slides.length - 1;
     if (i >= slides.length) i = 0;
-    if (i === current) return;
+    if (i === current && img.src) return;
 
     const slide = slides[i];
     if (!slide) return;
@@ -319,14 +333,12 @@ document.querySelectorAll('[data-history]').forEach((root) => {
   if (prevBtn) prevBtn.addEventListener('click', () => show(index - 1));
   if (nextBtn) nextBtn.addEventListener('click', () => show(index + 1));
 
-  // автопрокрутка
   let timer = setInterval(() => show(index + 1), 6000);
   hero.addEventListener('mouseenter', () => clearInterval(timer));
   hero.addEventListener('mouseleave', () => {
     timer = setInterval(() => show(index + 1), 6000);
   });
 })();
-
 
 // анимация счётчиков и кругов
 (function () {
@@ -410,7 +422,7 @@ document.querySelectorAll('[data-history]').forEach((root) => {
   });
 })();
 
-// Бургер-меню в хедере
+// Бургер-меню
 (function initHeaderBurger() {
   const burger = document.querySelector('[data-header-burger]');
   const nav = document.querySelector('[data-header-nav]');
@@ -457,5 +469,5 @@ document.querySelectorAll('[data-history]').forEach((root) => {
 
   window.addEventListener('resize', () => {
     if (window.innerWidth > 1024) closeMenu();
-  });
+  }, { passive: true });
 })();

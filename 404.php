@@ -11,7 +11,7 @@
           Please go back to the homepage or contact us at
           <a href="mailto:hello@createx.com" class="error-404__link">hello@createx.com</a>.
         </p>
-        <a href="/" class="btn__filled btn__lg">Go to homepage</a>
+        <a href="front-page.php" class="btn__filled btn__lg">Go to homepage</a>
       </div>
 
       <div class="error-404__media">
