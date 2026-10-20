@@ -161,6 +161,18 @@
 </footer>
 
 <script src="./js/main.js" defer></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 120,
+      easing: 'ease-out',
+      disable: 'mobile'
+    });
+  });
+</script>
 
 <?php
 $currentPage = basename($_SERVER['PHP_SELF']);

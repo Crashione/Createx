@@ -137,23 +137,52 @@
       <div class="history__inner">
         <div class="history__timeline">
           <div class="history__dates">
-            <button class="history__date history__date--active" data-index="0">Present</button>
-            <button class="history__date" data-index="1">March 2019</button>
-            <button class="history__date" data-index="2">November 2018</button>
-            <button class="history__date" data-index="3">July 2015</button>
-            <button class="history__date" data-index="4">August 2010</button>
-            <button class="history__date" data-index="5">February 2007</button>
-            <button class="history__date" data-index="6">May 2004</button>
-            <button class="history__date" data-index="7">October 2001</button>
-            <button class="history__date" data-index="8">June 2000</button>
+            <button class="history__date history__date--active"
+                    data-img="./img/about/history-present.jpg"
+                    data-text="Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus. Eu nec vitae.">Present</button>
+
+            <button class="history__date"
+                    data-img="./img/about/history-2019.jpg"
+                    data-text="March 2019 — открытие нового офиса.">March 2019</button>
+
+            <button class="history__date"
+                    data-img="./img/about/history-2018.jpg"
+                    data-text="November 2018 — расширение команды.">November 2018</button>
+
+            <button class="history__date"
+                    data-img="./img/about/history-2015.jpg"
+                    data-text="July 2015 — новые проекты.">July 2015</button>
+
+            <button class="history__date"
+                    data-img="./img/about/history-2010.jpg"
+                    data-text="August 2010 — старт крупного строительства.">August 2010</button>
+
+            <button class="history__date"
+                    data-img="./img/about/history-2007.jpg"
+                    data-text="February 2007 — новый филиал.">February 2007</button>
+
+            <button class="history__date"
+                    data-img="./img/about/history-2004.jpg"
+                    data-text="May 2004 — рост штата.">May 2004</button>
+
+            <button class="history__date"
+                    data-img="./img/about/history-2001.jpg"
+                    data-text="October 2001 — первые крупные контракты.">October 2001</button>
+
+            <button class="history__date"
+                    data-img="./img/about/history-2000.jpg"
+                    data-text="June 2000 — основание компании.">June 2000</button>
           </div>
         </div>
 
         <div class="history__slider">
           <div class="history__media">
-            <img src="./img/about/history-present.jpg" alt="Createx Construction Bureau present day — active construction site" class="history__img is-visible" loading="lazy" decoding="async" width="810" height="450">
+            <img class="history__img" src="./img/about/history-present.jpg"
+                 alt="Createx Construction Bureau present day"
+                 loading="lazy" decoding="async" width="810" height="450"
+                 data-history-img>
           </div>
-          <p class="history__text is-visible">
+          <p data-history-text>
             Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in.
             Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis
             diam posuere malesuada magnis. Bcelerisque dapibus. Eu nec vitae.

@@ -152,112 +152,41 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // page-about.php
 document.querySelectorAll('[data-history]').forEach((root) => {
-  const dates = root.querySelectorAll('.history__date');
-  const img = root.querySelector('.history__img');
-  const text = root.querySelector('.history__text');
+  const dates   = Array.from(root.querySelectorAll('.history__date'));
+  const img     = root.querySelector('[data-history-img]');
+  const text    = root.querySelector('[data-history-text]');
   const prevBtn = root.querySelector('[data-history-prev]');
   const nextBtn = root.querySelector('[data-history-next]');
 
   if (!dates.length || !img || !text) return;
 
-  const slides = [
-    {
-      img: './img/about/history-present.jpg',
-      text: 'Bcelerisque dapibus pharetra nibh semper iaculis duis viverra porttitor in. Eu nec vitae, malesuada vitae egestas integer et morbi. Maecenas sed quis diam posuere malesuada magnis. Bcelerisque dapibus. Eu nec vitae.',
-    },
-    { img: './img/about/history-2019.jpg', text: 'March 2019 — открытие нового офиса.' },
-    { img: './img/about/history-2018.jpg', text: 'November 2018 — расширение команды.' },
-    { img: './img/about/history-2015.jpg', text: 'July 2015 — новые проекты.' },
-    { img: './img/about/history-2010.jpg', text: 'August 2010 — старт крупного строительства.' },
-    { img: './img/about/history-2007.jpg', text: 'February 2007 — новый филиал.' },
-    { img: './img/about/history-2004.jpg', text: 'May 2004 — рост штата.' },
-    { img: './img/about/history-2001.jpg', text: 'October 2001 — первые крупные контракты.' },
-    { img: './img/about/history-2000.jpg', text: 'June 2000 — основание компании.' },
-  ];
-
   let current = 0;
-  let isAnimating = false;
-  const ANIM_MS = 300;
-
-  slides.forEach((s) => {
-    const pre = new Image();
-    pre.src = s.img;
-  });
-
-  const lockButtons = () => {
-    if (prevBtn) { prevBtn.classList.add('is-loading'); prevBtn.disabled = true; }
-    if (nextBtn) { nextBtn.classList.add('is-loading'); nextBtn.disabled = true; }
-  };
-  const unlockButtons = () => {
-    if (prevBtn) { prevBtn.classList.remove('is-loading'); prevBtn.disabled = false; }
-    if (nextBtn) { nextBtn.classList.remove('is-loading'); nextBtn.disabled = false; }
-  };
 
   const show = (i) => {
-    if (isAnimating) return;
-    if (i < 0) i = slides.length - 1;
-    if (i >= slides.length) i = 0;
-    if (i === current && img.src) return;
+    if (i < 0) i = dates.length - 1;
+    if (i >= dates.length) i = 0;
+    if (i === current) return;
 
-    const slide = slides[i];
-    if (!slide) return;
+    const btn = dates[i];
+    img.src = btn.dataset.img;
+    img.alt = btn.textContent.trim();
+    text.textContent = btn.dataset.text;
+    current = i;
 
-    isAnimating = true;
-    lockButtons();
-
-    const pre = new Image();
-
-    const apply = () => {
-      img.classList.remove('is-visible');
-      text.classList.remove('is-visible');
-
-      setTimeout(() => {
-        img.src = slide.img;
-        img.alt = 'History';
-        text.textContent = slide.text;
-        current = i;
-
-        dates.forEach((d, idx) => {
-          d.classList.toggle('history__date--active', idx === i);
-        });
-
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            img.classList.add('is-visible');
-            text.classList.add('is-visible');
-
-            setTimeout(() => {
-              isAnimating = false;
-              unlockButtons();
-            }, ANIM_MS);
-          });
-        });
-      }, ANIM_MS);
-    };
-
-    pre.onload = apply;
-    pre.onerror = apply;
-    pre.src = slide.img;
-    if (pre.complete && pre.naturalWidth > 0) apply();
+    dates.forEach((d, idx) => d.classList.toggle('history__date--active', idx === i));
+    const activeDate = document.querySelector('.history__date--active');
+    if (activeDate) {
+      activeDate.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center'
+      });
+    }
   };
 
-  dates.forEach((date, idx) => {
-    date.addEventListener('click', () => show(idx));
-  });
-
+  dates.forEach((btn, idx) => btn.addEventListener('click', () => show(idx)));
   if (prevBtn) prevBtn.addEventListener('click', () => show(current - 1));
   if (nextBtn) nextBtn.addEventListener('click', () => show(current + 1));
-
-  document.addEventListener('keydown', (e) => {
-    const rect = root.getBoundingClientRect();
-    const inView = rect.top < window.innerHeight && rect.bottom > 0;
-    if (!inView) return;
-    if (e.key === 'ArrowRight') show(current + 1);
-    if (e.key === 'ArrowLeft') show(current - 1);
-  });
-
-  img.classList.add('is-visible');
-  text.classList.add('is-visible');
 });
 
 // Модалка

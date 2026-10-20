@@ -50,10 +50,10 @@
 
   <section class="home-about">
     <div class="container">
-      <h2 class="section-title">We are Createx Construction Bureau</h2>
-      <p class="section-subtitle">We are rightfully considered to be the best construction company in the USA.</p>
+      <h2 class="section-title" data-aos="fade-down">We are Createx Construction Bureau</h2>
+      <p class="section-subtitle" data-aos="fade-down" data-aos-delay="100">We are rightfully considered to be the best construction company in the USA.</p>
 
-      <div class="home-about__video" data-video>
+      <div class="home-about__video" data-video data-aos="fade-left" data-aos-delay="200">
         <video
           class="home-about__video-el"
           poster="./img/home/about-video.jpg"
@@ -79,24 +79,24 @@
 
   <section class="core-values">
     <div class="container">
-      <h2 class="section-title">Our core values</h2>
-      <p class="section-subtitle">Our mission is to set the highest standards for construction sphere.</p>
+      <h2 class="section-title" data-aos="fade-down">Our core values</h2>
+      <p class="section-subtitle" data-aos="fade-down" data-aos-delay="100">Our mission is to set the highest standards for construction sphere.</p>
 
       <div class="core-values__grid">
 
-        <div class="core-value">
+        <div class="core-value" data-aos="fade-right" data-aos-delay="0">
           <img src="./img/about/ic-quality.svg" alt="" aria-hidden="true" class="core-value__icon" loading="lazy" decoding="async" width="48" height="48">
           <h3 class="core-value__title">Quality</h3>
           <p class="core-value__desc">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
         </div>
 
-        <div class="core-value">
+        <div class="core-value" data-aos="fade-down" data-aos-delay="100">
           <img src="./img/about/ic-safety.svg" alt="" aria-hidden="true" class="core-value__icon" loading="lazy" decoding="async" width="48" height="48">
           <h3 class="core-value__title">Safety</h3>
           <p class="core-value__desc">Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.</p>
         </div>
 
-        <div class="core-value">
+        <div class="core-value" data-aos="fade-left" data-aos-delay="200">
           <img src="./img/about/ic-comfort.svg" alt="" aria-hidden="true" class="core-value__icon" loading="lazy" decoding="async" width="48" height="48">
           <h3 class="core-value__title">Comfort</h3>
           <p class="core-value__desc">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.</p>
@@ -106,7 +106,7 @@
     </div>
   </section>
 
-  <section class="home-request">
+  <section class="home-request" data-aos="fade-down">
     <div class="container">
       <div class="home-request__box">
         <h3 class="home-request__title">Want to know more? Ask us a question:</h3>
@@ -135,27 +135,27 @@
 
   <section class="home-services">
     <div class="container">
-      <h2 class="section-title">Our services</h2>
-      <p class="section-subtitle">Createx Construction Bureau is a construction giant with a full range of construction services.</p>
+      <h2 class="section-title" data-aos="fade-down">Our services</h2>
+      <p class="section-subtitle" data-aos="fade-down" data-aos-delay="100">Createx Construction Bureau is a construction giant with a full range of construction services.</p>
 
       <div class="home-services__grid">
 
-        <a href="single-service.php" class="home-service">
+        <a href="single-service.php" class="home-service" data-aos="fade-right" data-aos-delay="0">
           <img src="./img/home/service-construction.svg" alt="" aria-hidden="true" class="home-service__icon" loading="lazy" decoding="async" width="52" height="52">
           <span class="home-service__title">Construction</span>
         </a>
 
-        <a href="single-service.php" class="home-service">
+        <a href="single-service.php" class="home-service" data-aos="fade-right" data-aos-delay="100">
           <img src="./img/home/service-project.svg" alt="" aria-hidden="true" class="home-service__icon" loading="lazy" decoding="async" width="52" height="52">
           <span class="home-service__title">Project Development</span>
         </a>
 
-        <a href="single-service.php" class="home-service">
+        <a href="single-service.php" class="home-service" data-aos="fade-left" data-aos-delay="200">
           <img src="./img/home/service-interior.svg" alt="" aria-hidden="true" class="home-service__icon" loading="lazy" decoding="async" width="52" height="52">
           <span class="home-service__title">Interior Design</span>
         </a>
 
-        <a href="single-service.php" class="home-service">
+        <a href="single-service.php" class="home-service" data-aos="fade-left" data-aos-delay="300">
           <img src="./img/home/service-repairs.svg" alt="" aria-hidden="true" class="home-service__icon" loading="lazy" decoding="async" width="52" height="52">
           <span class="home-service__title">Repairs</span>
         </a>
@@ -163,15 +163,15 @@
       </div>
 
       <div class="home-services__cta">
-        <p class="home-services__cta-text">Learn more about our services</p>
-        <a href="services.php" class="btn__filled btn__lg">View services</a>
+        <p class="home-services__cta-text" data-aos="fade-right" data-aos-delay="0">Learn more about our services</p>
+        <a href="services.php" class="btn__filled btn__lg" data-aos="fade-left" data-aos-delay="100">View services</a>
       </div>
     </div>
   </section>
 
   <section class="home-projects">
     <div class="container">
-      <div class="home-projects__head">
+      <div class="home-projects__head" data-aos="fade-down">
         <h2 class="section-title section-title--left">
           Browse our selected projects<br>and learn more about our work
         </h2>
@@ -185,7 +185,7 @@
         </div>
       </div>
 
-      <div class="portfolio__slider">
+      <div class="portfolio__slider" data-aos="fade-down" data-aos-delay="150">
         <div class="portfolio__track">
 
           <article class="project-card">
@@ -291,17 +291,17 @@
       </div>
 
       <div class="home-projects__cta">
-        <p class="home-projects__cta-text">Explore all our works</p>
-        <a href="page-work.php" class="btn__filled btn__lg">View portfolio</a>
+        <p class="home-projects__cta-text" data-aos="fade-right" data-aos-delay="0">Explore all our works</p>
+        <a href="page-work.php" class="btn__filled btn__lg" data-aos="fade-left" data-aos-delay="0">View portfolio</a>
       </div>
     </div>
   </section>
 
   <section class="partners">
     <div class="container">
-      <h2 class="partners__title">Supported by 12+ partners</h2>
+      <h2 class="partners__title" data-aos="fade-down">Supported by 12+ partners</h2>
 
-      <div class="partners__grid">
+      <div class="partners__grid" data-aos="fade-up" data-aos-delay="150">
         <img src="./img/single-service/partner-indepth.svg" alt="InDepth Consulting logo" loading="lazy" decoding="async" width="120" height="64">
         <img src="./img/single-service/partner-higher.svg" alt="Higher Fit logo" loading="lazy" decoding="async" width="120" height="64">
         <img src="./img/single-service/partner-sentinal.svg" alt="Sentinal Consulting logo" loading="lazy" decoding="async" width="120" height="64">
@@ -315,7 +315,7 @@
   <section class="testimonials">
     <div class="container testimonials__inner">
 
-      <div class="testimonials__content">
+      <div class="testimonials__content" data-aos="fade-right">
         <h2 class="testimonials__title">What our clients are saying</h2>
 
         <div class="testimonial-slider" data-testimonial-slider>
@@ -357,7 +357,7 @@
         </div>
       </div>
 
-      <div class="testimonials__media">
+      <div class="testimonials__media" data-aos="fade-left" data-aos-delay="150">
         <img src="./img/page-work/testimonial-photo.jpg" alt="Createx team members shaking hands with a client" loading="lazy" decoding="async">
       </div>
 
@@ -366,7 +366,7 @@
 
   <section class="home-facts">
     <div class="container">
-        <h2 class="section-title">Some facts and figures</h2>
+        <h2 class="section-title" data-aos="fade-down">Some facts and figures</h2>
 
         <div class="home-facts__grid">
 
@@ -448,11 +448,11 @@
 
   <section class="home-news">
     <div class="container">
-      <h2 class="section-title">Recent news</h2>
+      <h2 class="section-title" data-aos="fade-down">Recent news</h2>
 
       <div class="home-news__grid">
 
-        <article class="home-news__large">
+        <article class="home-news__large" data-aos="fade-right">
           <div class="home-news__img-wrap">
             <img src="./img/news/news-img/1.jpg" alt="How to Build Climate Change-Resilient Infrastructure" loading="lazy" decoding="async">
           </div>
@@ -475,7 +475,7 @@
           </div>
         </article>
 
-        <article class="home-news__small">
+        <article class="home-news__small" data-aos="fade-left" data-aos-delay="100">
           <div class="home-news__img-wrap">
             <img src="./img/news/news-img/2.jpg" alt="How Construction Can Help Itself" loading="lazy" decoding="async">
           </div>
@@ -494,7 +494,7 @@
           </div>
         </article>
 
-        <article class="home-news__small">
+        <article class="home-news__small" data-aos="fade-left" data-aos-delay="200">
           <div class="home-news__img-wrap">
             <img src="./img/news/news-img/6.jpg" alt="Types of Flooring Materials" loading="lazy" decoding="async">
           </div>
@@ -516,8 +516,8 @@
       </div>
 
       <div class="home-news__cta">
-        <p class="home-news__cta-text">Explore all our news posts</p>
-        <a href="page-news.php" class="btn__filled btn__lg">View all news</a>
+        <p class="home-news__cta-text" data-aos="fade-right" data-aos-delay="0">Explore all our news posts</p>
+        <a href="page-news.php" class="btn__filled btn__lg" data-aos="fade-left" data-aos-delay="0">View all news</a>
       </div>
     </div>
   </section>

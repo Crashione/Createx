@@ -11,7 +11,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
     <title>Createx Construction Bureau</title>
     <meta name="description" content="Createx Construction Bureau — construction and interior design since 2000.">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link rel="preload" href="fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
