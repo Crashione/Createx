@@ -330,7 +330,41 @@
     <div class="container">
       <h2 class="worldwide__title">We work worldwide</h2>
       <div class="worldwide__map">
-        <img src="./img/about/world-map.svg" alt="World map showing Createx Construction Bureau offices and projects locations" loading="lazy" decoding="async">
+        <div class="worldwide__country" tabindex="0" data-country="Australia"
+             style="left:82.03%;top:74.42%;width:3.25%;height:7.11%;">
+          <img src="./img/about/countries/australia.svg" alt="Australia">
+          <span class="worldwide__country-name">Australia</span>
+        </div>
+      
+        <div class="worldwide__country" tabindex="0" data-country="China"
+             style="left:73.98%;top:40.67%;width:3.26%;height:7.11%;">
+          <img src="./img/about/countries/china.svg" alt="China">
+          <span class="worldwide__country-name">China</span>
+        </div>
+      
+        <div class="worldwide__country" tabindex="0" data-country="Ukraine"
+             style="left:54.31%;top:29.31%;width:3.25%;height:7.10%;">
+          <img src="./img/about/countries/ukraine.svg" alt="Ukraine">
+          <span class="worldwide__country-name">Ukraine</span>
+        </div>
+      
+        <div class="worldwide__country" tabindex="0" data-country="Germany"
+             style="left:48.94%;top:27.89%;width:3.26%;height:7.10%;">
+          <img src="./img/about/countries/germany.svg" alt="Germany">
+          <span class="worldwide__country-name">Germany</span>
+        </div>
+      
+        <div class="worldwide__country" tabindex="0" data-country="USA"
+             style="left:18.29%;top:36.94%;width:3.25%;height:7.11%;">
+          <img src="./img/about/countries/usa.svg" alt="USA">
+          <span class="worldwide__country-name">USA</span>
+        </div>
+      
+        <div class="worldwide__country" tabindex="0" data-country="Canada"
+             style="left:13.41%;top:20.07%;width:3.26%;height:7.11%;">
+          <img src="./img/about/countries/canada.svg" alt="Canada">
+          <span class="worldwide__country-name">Canada</span>
+        </div>
       </div>
     </div>
   </section>
